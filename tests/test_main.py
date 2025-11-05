@@ -120,7 +120,7 @@ def test_list_commands_order(fake_output):
   outputs, output_fn = fake_output
   list_commands(output_fn=output_fn)
   command_lines = outputs[1:]
-  commands = [line.strip().split()[0] for line in command_lines]
+  commands = [line.strip().split()[0].rstrip(",") for line in command_lines]
   expected_commands = ["--num-questions", "--theme", "--case-sensitive", "--no-partial", "--max-attempts", "--list-themes", "--list-commands"]
   assert commands[:len(expected_commands)] == expected_commands
 
