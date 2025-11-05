@@ -20,6 +20,8 @@ member5
 
 ## Installation
 
+pipenv install -i https://test.pypi.org/simple/ emojiguessr==0.0.1
+
 ## Usage (code examples)
 
 ## Develop and Contribute
