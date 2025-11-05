@@ -3,6 +3,8 @@
 <!-- The badge should be replaced by the actual CI badge -->
 [![](https://github.com/swe-students-fall2025/3-python-package-team_saffron/actions/workflows/build.yaml/badge.svg)](https://github.com/swe-students-fall2025/3-python-package-team_saffron/actions/workflows/build.yaml)
 
+[![](https://gitlab.com/swe-students-fall2025/3-python-package-team_saffron/actions/workflows/deliver.yaml/badge.svg)](https://gitlab.com/swe-students-fall2025/3-python-package-team_saffron/actions/workflows/deliver.yaml)
+
 Link to PyPI: []()
 
 EmojiGuessr is a Python package that turns emoji strings into quick guessing games. Pick a theme, get an emoji clue and guess the name!
