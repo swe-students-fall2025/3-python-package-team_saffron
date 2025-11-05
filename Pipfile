@@ -9,11 +9,12 @@ verify_ssl = true
 name = "testpypi"
 
 [packages]
-coverage = "*"
 twine = "*"
 build = "*"
 pytest = "*"
-emojiguessr = {version = "==0.0.1", index = "testpypi"}
+coverage = "*"
+pytest-cov = "*"
+emojiguessr = {file = ".", editable = true}
 
 [dev-packages]
 
