@@ -15,6 +15,7 @@ pytest = "*"
 coverage = "*"
 pytest-cov = "*"
 emojiguessr = {file = ".", editable = true}
+bumpver = "*"
 
 [dev-packages]
 

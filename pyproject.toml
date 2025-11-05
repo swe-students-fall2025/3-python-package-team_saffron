@@ -2,16 +2,26 @@
 requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
+[bumpver]
+current_version = "0.1.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+
+
+[bumpver.file_patterns]
+"pyproject.toml" = [
+    'version = "{version}"',
+]
+
 [project]
 name = "emojiguessr"
-version = "0.0.1"
+version = "0.1.0"
 description = "A tiny emoji guessing game"
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [
   { name = "Team Saffron"}
 ]
-license = { text = "MIT" }
+license = { text = "GNU GENERAL PUBLIC LICENSE" }
 dependencies = []
 
 [project.urls]
