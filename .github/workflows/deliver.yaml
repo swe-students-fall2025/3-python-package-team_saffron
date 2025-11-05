@@ -15,7 +15,7 @@ jobs:
         - name: Install bumpver and bump
           run: |
             pipenv install bumpver
-            bumpver update -p
+            pipenv run bumpver update -p
         - name: Build package
           run: |
             pipenv install build
