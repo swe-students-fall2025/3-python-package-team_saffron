@@ -5,7 +5,7 @@
 
 [![](https://github.com/swe-students-fall2025/3-python-package-team_saffron/actions/workflows/deliver.yaml/badge.svg)](https://github.com/swe-students-fall2025/3-python-package-team_saffron/actions/workflows/deliver.yaml)
 
-Link to PyPI: []()
+Link to PyPI: [Emojiguessr](https://pypi.org/project/emojiguessr/)
 
 EmojiGuessr is a Python package that turns emoji strings into quick guessing games. Pick a theme, get an emoji clue and guess the name!
 
@@ -189,4 +189,4 @@ pipenv run pytest -v
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
