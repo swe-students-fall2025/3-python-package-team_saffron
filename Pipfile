@@ -1,15 +1,14 @@
 [[source]]
+name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
-name = "pypi"
 
 [packages]
-emojiguessr = {file: ".", editable: true}
+coverage = "*"
+twine = "*"
 build = "*"
 pytest = "*"
-coverage = "*"
-pytest-cov = "*"
-twine = "*"
+emojiguessr = {file = ".", editable = true}
 
 [dev-packages]
 

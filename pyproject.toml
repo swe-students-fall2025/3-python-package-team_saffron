@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emojiguessr"
+version = "0.0.1"
+description = "A tiny emoji guessing game"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Team Saffron"}
+]
+license = { text = "MIT" }
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/swe-students-fall2025/3-python-package-team_saffron"
+Issues = "https://github.com/swe-students-fall2025/3-python-package-team_saffron/issues"
+
+[project.scripts]
+emojiguessr = "emojiguessr.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
