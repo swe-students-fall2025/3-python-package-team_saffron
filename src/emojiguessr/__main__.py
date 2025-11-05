@@ -3,20 +3,20 @@ from emojiguessr import make_quiz_item, check_answer, score
 from emojiguessr.data import _EMOJI_BANK
 
 
-def run_quiz(num_questions, theme, case_sensitive, allow_partial, max_attempts):
+def run_quiz(num_questions, theme, case_sensitive, allow_partial, max_attempts, input_fn = input, output_fn = print):
     s = 0
     for i in range(1, num_questions + 1):
         item = make_quiz_item(theme=theme)
         clue = item["clue"]
         answer = item["answer"]
 
-        print(f"\nQuestion {i}/{num_questions}")
-        print(f"Theme: {item['theme']}")
-        print(f"Emoji: {clue}")
+        output_fn(f"\nQuestion {i}/{num_questions}")
+        output_fn(f"Theme: {item['theme']}")
+        output_fn(f"Emoji: {clue}")
 
         attempts_left = max_attempts
         while attempts_left > 0:
-            guess = input("Your guess: ")
+            guess = input_fn("Your guess: ")
 
             is_right = check_answer(
                 correct=answer,
@@ -28,25 +28,25 @@ def run_quiz(num_questions, theme, case_sensitive, allow_partial, max_attempts):
             s = score(s, correct=is_right)
 
             if is_right:
-                print("✅ Correct!")
+                output_fn("✅ Correct!")
                 break
             else:
                 attempts_left -= 1
                 if attempts_left > 0:
-                    print(f"❌ Wrong! {attempts_left} attempts left.")
+                    output_fn(f"❌ Wrong! {attempts_left} attempts left.")
                 else:
-                    print(f"❌ Nope — it was: {answer}")
+                    output_fn(f"❌ Nope — it was: {answer}")
 
-    print(f"\nFinal score: {s}/{num_questions}")
+    output_fn(f"\nFinal score: {s}/{num_questions}")
 
 
-def list_themes():
-    print("Available themes:")
+def list_themes(output_fn = print):
+    output_fn("Available themes:")
     for theme in sorted(_EMOJI_BANK.keys()):
-        print(f"  - {theme}")
+        output_fn(f"  - {theme}")
 
 
-def list_commands():
+def list_commands(output_fn = print):
     print("Available commands:")
     print("  --num-questions, -n    : Number of questions to ask (default: 3)")
     print("  --theme, -t            : Emoji theme to use (default: food)")
