@@ -12,10 +12,11 @@ jobs:
         - uses: actions/checkout@v4
         - name: Install Python, pipenv and Pipfile packages
           uses: kojoru/prepare-pipenv@v1
-        - name: Install bumpver and bump
-          run: |
-            pipenv install bumpver
-            pipenv run bumpver update -p
+          # you gotta do it manually bud, im not making it commit the new version number
+        # - name: Install bumpver and bump
+        #   run: |
+        #     pipenv install bumpver
+        #     pipenv run bumpver update -p
         - name: Build package
           run: |
             pipenv install build
