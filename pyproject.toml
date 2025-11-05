@@ -5,6 +5,9 @@ build-backend = "setuptools.build_meta"
 [bumpver]
 current_version = "1.4.0"
 version_pattern = "MAJOR.MINOR.PATCH"
+commit = true
+tag = true
+push = true
 
 
 [bumpver.file_patterns]

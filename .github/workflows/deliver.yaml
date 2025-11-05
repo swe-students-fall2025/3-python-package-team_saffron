@@ -1,8 +1,16 @@
 name: CD
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+    inputs:
+      part:
+        description: Which version segment to bump
+        default: patch
+        required: true
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
 jobs:
   deliver:
       # needs: [build]
