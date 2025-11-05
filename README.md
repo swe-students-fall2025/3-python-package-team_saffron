@@ -29,14 +29,10 @@ member5
 
 ## Installation
 
-Try [installing and using your package](https://packaging.python.org/en/latest/tutorials/packaging-projects/#installing-your-newly-uploaded-package) in a separate Python project:
-
-1. Create a `pipenv`-managed virtual environment and install the latest version: ```sh
-pipenv install -i https://test.pypi.org/simple/emojiguessr
-```. (Note that if you've previously created a `pipenv` virtual environment in the same directory, you may have to delete the old one first. Find out where it is located with the `pipenv --venv` command.)
+1. Create a `pipenv`-managed virtual environment and install the latest version: `pipenv install -i https://test.pypi.org/simple/emojiguessr`. (Note that if you've previously created a `pipenv` virtual environment in the same directory, you may have to delete the old one first. Find out where it is located with the `pipenv --venv` command.)
 2. Activate the virtual environment: `pipenv shell`.
-3. Create a Python program file that imports the package and uses it, e.g. ```py from emojiguessr import quiz``` and then ```py print(quiz.make_quiz_item())```.
-4. Run the program: ```sh python3 my_program_filename.py```.
+3. Create a Python program file that imports the package and uses it, e.g. `from emojiguessr import quiz` and then ` print(quiz.make_quiz_item())`.
+4. Run the program: `python3 my_program_filename.py`.
 5. Exit the virtual environment: `exit`.
 
 Try running the package directly:
