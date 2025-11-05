@@ -47,16 +47,16 @@ def list_themes(output_fn = print):
 
 
 def list_commands(output_fn = print):
-    print("Available commands:")
-    print("  --num-questions, -n    : Number of questions to ask (default: 3)")
-    print("  --theme, -t            : Emoji theme to use (default: food)")
-    print("  --case-sensitive       : Make answers case-sensitive (default: off)")
-    print("  --no-partial           : Disable partial matches")
-    print(
+    output_fn("Available commands:")
+    output_fn("  --num-questions, -n    : Number of questions to ask (default: 3)")
+    output_fn("  --theme, -t            : Emoji theme to use (default: food)")
+    output_fn("  --case-sensitive       : Make answers case-sensitive (default: off)")
+    output_fn("  --no-partial           : Disable partial matches")
+    output_fn(
         "  --max-attempts, -a     : Maximum number of attempts per question (default: 1)"
     )
-    print("  --list-themes, -lt     : List available themes and exit")
-    print("  --list-commands, -lc   : List available commands and exit")
+    output_fn("  --list-themes, -lt     : List available themes and exit")
+    output_fn("  --list-commands, -lc   : List available commands and exit")
 
 
 def main():
