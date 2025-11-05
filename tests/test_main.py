@@ -2,33 +2,33 @@ import pytest
 from emojiguessr.__main__ import run_quiz, list_themes, list_commands
 from emojiguessr.data import _EMOJI_BANK
 
+@pytest.fixture
+def fake_input_single():
+  def _input(_):
+    return "burger"
+  return _input
+
+@pytest.fixture
+def fake_input_multiple():
+  inputs = iter(["burger", "sushi"])
+  def _input(_):
+    return next(inputs)
+  return _input
+
+@pytest.fixture
+def fake_input_partial():
+  def _input(_):
+    return "Jurassic"
+  return _input
+
+@pytest.fixture
+def fake_output():
+  outputs = []
+  def output_fn(text):
+    outputs.append(text)
+  return outputs, output_fn
+
 class Tests:
-  
-  @pytest.fixture
-  def fake_input_single():
-    def _input(_):
-      return "burger"
-    return _input
-
-  @pytest.fixture
-  def fake_input_multiple():
-    inputs = iter(["burger", "sushi"])
-    def _input(_):
-      return next(inputs)
-    return _input
-
-  @pytest.fixture
-  def fake_input_partial():
-    def _input(_):
-      return "Jurassic"
-    return _input
-
-  @pytest.fixture
-  def fake_output():
-    outputs = []
-    def output_fn(text):
-      outputs.append(text)
-    return outputs, output_fn
 
   def test_run_quiz_correct_answer(fake_input_single, fake_output):
     outputs, output_fn = fake_output
