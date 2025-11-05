@@ -10,7 +10,7 @@ EmojiGuessr is a Python package that turns emoji strings into quick guessing gam
 ## Team Members
 [Jason Liu](https://github.com/jsl1114)
 
-member2
+[David Shen](https://github.com/snazzybeatle115)
 
 member3
 
