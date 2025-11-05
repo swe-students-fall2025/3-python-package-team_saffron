@@ -1,0 +1,501 @@
+Question ID,Question,Answer
+1,The expression `-37 + -39 == 1443` evaluates to True,FALSE
+2,The expression `'python'[::-1] == 'nohtyp'` evaluates to True,TRUE
+3,The expression `-2 + -15 == 30` evaluates to True,FALSE
+4,The standard library module statistics exists,TRUE
+5,The expression `[x*x for x in range(4)][-1] == 9` evaluates to True,TRUE
+6,The expression `-21 + 48 == -1008` evaluates to True,FALSE
+7,The expression `[x*x for x in range(26)][-1] == 625` evaluates to True,TRUE
+8,staticmethod receives no implicit first argument,TRUE
+9,filter returns a list in Python 3,FALSE
+10,The expression `19 + -39 == -741` evaluates to True,FALSE
+11,Exceptions in Python must inherit from BaseException,TRUE
+12,The expression `-45 * 43 == -1935` evaluates to True,TRUE
+13,The expression `-10 + 1 == -10` evaluates to True,FALSE
+14,hash of a tuple of only hashable items works,TRUE
+15,The expression `-23 * 22 == -506` evaluates to True,TRUE
+16,"isinstance(True, int) is True",TRUE
+17,"The expression `min([3,1,2]) == 1` evaluates to True",TRUE
+18,"The expression `{1,2,3} - {2} == {1,3}` evaluates to True",TRUE
+19,asyncio.run creates and runs an event loop,TRUE
+20,"The expression {'a':1}.get('b', 99) returns 99",TRUE
+21,The expression `-21 * -38 == 798` evaluates to True,TRUE
+22,The expression `sum(x for x in range(8)) == 64` evaluates to True,FALSE
+23,NaN is not equal to itself by definition,TRUE
+24,os.environ is a mapping of environment variables,TRUE
+25,match case is a structural pattern matching syntax introduced in Python 3.10,TRUE
+26,map returns an iterator in Python 3,TRUE
+27,Accessing a missing key with dict indexing raises KeyError,TRUE
+28,"The expression any(x%3==0 for x in [1,2,3,4]) is True",TRUE
+29,"List comprehension [x for x in range(3)] creates a list [0,1,2]",TRUE
+30,The expression `-3 * -5 == 15` evaluates to True,TRUE
+31,Pathlib Path objects support division operator for joining paths,TRUE
+32,The expression len(range(5)) equals 5,TRUE
+33,format specifiers like f'{3.14159:.2f}' are valid,TRUE
+34,The expression `-2 + -38 == 76` evaluates to True,FALSE
+35,The expression `sum(x for x in range(26)) == 676` evaluates to True,FALSE
+36,time.sleep blocks the current thread,TRUE
+37,The slice 'pythonista'[0:3] equals 'pyt',TRUE
+38,The key parameter for sorted accepts a function,TRUE
+39,The expression `[x*x for x in range(12)][-1] == 121` evaluates to True,TRUE
+40,set is unordered so its iteration order is not guaranteed,TRUE
+41,A generator expression uses parentheses like (x*x for x in range(3)),TRUE
+42,"The expression any([False, False, True]) is True",TRUE
+43,The expression `18 + 43 == 774` evaluates to True,FALSE
+44,The expression `sum(range(20)) == 190` evaluates to True,TRUE
+45,The expression `sum(range(35)) == 595` evaluates to True,TRUE
+46,The expression `sum(x for x in range(9)) == 81` evaluates to True,FALSE
+47,The expression `sum(x for x in range(28)) == 784` evaluates to True,FALSE
+48,"The expression `dict(a=1,b=2)['a'] == (1999)` evaluates to True",FALSE
+49,The expression `[x*x for x in range(23)][-1] == 484` evaluates to True,TRUE
+50,The expression `sum(range(10)) == 45` evaluates to True,TRUE
+51,The expression `[x*x for x in range(29)][-1] == 784` evaluates to True,TRUE
+52,csv module can both read and write CSV files,TRUE
+53,A class __init__ method may return a non None value,FALSE
+54,dataclasses can generate __init__ and __repr__ automatically,TRUE
+55,The expression `[x*x for x in range(5)][-1] == 16` evaluates to True,TRUE
+56,GIL means Global Interpreter Lock,TRUE
+57,Ellipsis ... is a valid singleton object in Python,TRUE
+58,The expression `-15 + -50 == 750` evaluates to True,FALSE
+59,The expression `-13 * -40 == 520` evaluates to True,TRUE
+60,The expression 'PY' in 'python' is True,FALSE
+61,argparse helps parse command line arguments,TRUE
+62,The expression `38 + 21 == 798` evaluates to True,FALSE
+63,The operator is checks identity not equality,TRUE
+64,The expression `41 + 33 == 1353` evaluates to True,FALSE
+65,"The expression `sorted({'b':2,'a':1}) == ['a','b']` evaluates to True",TRUE
+66,The expression '10' < '2' is True for string comparison,TRUE
+67,PEP stands for Python Enhancement Proposal,TRUE
+68,The expression `-2 * -38 == 76` evaluates to True,TRUE
+69,classmethod receives the class as its first argument,TRUE
+70,The expression `8 + 31 == 248` evaluates to True,FALSE
+71,The expression `(i for i in range(3)).__iter__() is not None` evaluates to True,TRUE
+72,The expression -3 % 2 equals 1,TRUE
+73,The expression `-19 + -30 == 570` evaluates to True,FALSE
+74,The module typing provides Protocol and TypedDict,TRUE
+75,The expression `sum(x for x in range(20)) == 400` evaluates to True,FALSE
+76,The expression `sum(x for x in range(12)) == 144` evaluates to True,FALSE
+77,The expression `[x*x for x in range(16)][-1] == 225` evaluates to True,TRUE
+78,"The expression `{1: 'a', 2: 'b'}.get(3) is None` evaluates to True",TRUE
+79,The expression `sum(range(40)) == 780` evaluates to True,TRUE
+80,The expression 'ä'.encode('ascii') succeeds,FALSE
+81,The slice object can be used to slice sequences programmatically,TRUE
+82,Python uses indentation to define blocks,TRUE
+83,The expression `[x*x for x in range(31)][-1] == 900` evaluates to True,TRUE
+84,The expression `8 * 31 == 248` evaluates to True,TRUE
+85,__str__ is intended for a user friendly representation,TRUE
+86,The expression `sum(x for x in range(25)) == 625` evaluates to True,FALSE
+87,The expression `44 * -37 == -1628` evaluates to True,TRUE
+88,The expression `-21 + -38 == 798` evaluates to True,FALSE
+89,"The expression [1,2] * 2 equals [1,2,1,2]",TRUE
+90,str.encode converts str to bytes,TRUE
+91,The expression `[x*x for x in range(9)][-1] == 64` evaluates to True,TRUE
+92,The expression `-22 * 37 == -814` evaluates to True,TRUE
+93,functools.partial can freeze some function arguments,TRUE
+94,The expression `9 * -2 == -18` evaluates to True,TRUE
+95,The expression sys.getrecursionlimit returns the current recursion depth limit,TRUE
+96,The expression {'a':1} | {'b':2} merges dictionaries in Python 3.9 plus,TRUE
+97,The expression 0.1 + 0.2 == 0.3 evaluates to True,FALSE
+98,The module functools provides lru_cache,TRUE
+99,dict.get returns None by default when a key is missing,TRUE
+100,range produces values lazily rather than storing all values,TRUE
+101,deque supports fast appends and pops from both ends,TRUE
+102,The expression -3 // 2 equals -2,TRUE
+103,The expression 'python'.title() equals 'Python',TRUE
+104,The expression `27 + -17 == -459` evaluates to True,FALSE
+105,The walrus operator can be used inside list comprehensions,TRUE
+106,"The expression max([], default=0) returns 0",TRUE
+107,The operator in on a string checks for substring presence,TRUE
+108,The expression `-41 * 27 == -1107` evaluates to True,TRUE
+109,The expression `37 + 32 == 1184` evaluates to True,FALSE
+110,"The expression `tuple(x for x in range(3)) == ((0,1,2)999)` evaluates to True",FALSE
+111,datetime.datetime is timezone naive by default,TRUE
+112,open supports text and binary modes via 't' and 'b' flags,TRUE
+113,The expression None == 0 is True,FALSE
+114,async def defines a coroutine function,TRUE
+115,"The expression `not ({1: 'a', 2: 'b'}.get(3) is None)` evaluates to True",FALSE
+116,The expression 'abc'.index('d') returns -1,FALSE
+117,The expression `[x*x for x in range(7)][-1] == 36` evaluates to True,TRUE
+118,The expression `[x*x for x in range(15)][-1] == 196` evaluates to True,TRUE
+119,The expression `-46 * -47 == 2162` evaluates to True,TRUE
+120,The expression `7 + 25 == 175` evaluates to True,FALSE
+121,Python supports underscores in numeric literals like 1_000_000,TRUE
+122,The expression `[x*x for x in range(28)][-1] == 729` evaluates to True,TRUE
+123,"The expression `len(list(zip_longest := __import__('itertools').zip_longest([],[]))) == (0999)` evaluates to True",FALSE
+124,The slice 'data science'[-3:] equals 'nce',TRUE
+125,The expression `-22 + 37 == -814` evaluates to True,FALSE
+126,pip is the default Python package installer,TRUE
+127,Accessing a list at an out of range index raises IndexError,TRUE
+128,The expression `-40 * 20 == -800` evaluates to True,TRUE
+129,The keyword nonlocal affects names in the nearest enclosing function scope,TRUE
+130,The expression `[x*x for x in range(14)][-1] == 169` evaluates to True,TRUE
+131,The expression `21 * -25 == -525` evaluates to True,TRUE
+132,fractions.Fraction can represent rational numbers exactly,TRUE
+133,The expression `-24 * 35 == -840` evaluates to True,TRUE
+134,random.seed makes random results reproducible,TRUE
+135,The expression `-22 + -33 == 726` evaluates to True,FALSE
+136,The built in function chr returns a character from a code point,TRUE
+137,The expression `-21 + -46 == 966` evaluates to True,FALSE
+138,The expression `sum(x for x in range(22)) == 484` evaluates to True,FALSE
+139,setdefault on dict inserts a default if the key is missing,TRUE
+140,The expression `18 * 43 == 774` evaluates to True,TRUE
+141,The expression bool([]) is True,FALSE
+142,The expression 'A' < 'a' is True in ASCII,TRUE
+143,The expression [][0:5] returns [],TRUE
+144,The expression `[x*x for x in range(13)][-1] == 144` evaluates to True,TRUE
+145,Set comprehension uses curly braces like {x for x in range(3)},TRUE
+146,math.inf is a float representing infinity,TRUE
+147,The expression list({1: 'a'}) equals [1],TRUE
+148,The expression `'abc'.upper() == 'ABC'` evaluates to True,TRUE
+149,bool of an empty dict is False,TRUE
+150,The slice 'pythonista'[-3:] equals 'sta',TRUE
+151,"The expression tuple([1,2]) equals (1,2)",TRUE
+152,The slice 'abcdef'[-3:] equals 'def',TRUE
+153,The expression `-16 + 31 == -496` evaluates to True,FALSE
+154,The expression `-16 * 39 == -624` evaluates to True,TRUE
+155,super works only with single inheritance,FALSE
+156,The expression `31 * -29 == -899` evaluates to True,TRUE
+157,The expression `39 + 4 == 156` evaluates to True,FALSE
+158,The expression `-7 + -15 == 105` evaluates to True,FALSE
+159,copy.deepcopy performs a deep copy,TRUE
+160,The expression 'Hello'.lower() == 'hello',TRUE
+161,The slice 'data science'[0:3] equals 'dat',TRUE
+162,Tabs and spaces can be mixed safely in Python 3,FALSE
+163,The expression `-21 * -46 == 966` evaluates to True,TRUE
+164,The expression `-4 + -30 == 120` evaluates to True,FALSE
+165,"The expression `sorted({3,1,2}) == [1,2,3]` evaluates to True",TRUE
+166,__repr__ is intended to be an unambiguous representation of an object,TRUE
+167,"The expression len({'a':1, 'b':2}) equals 2",TRUE
+168,The walrus operator is written as :=,TRUE
+169,The expression `-19 * -30 == 570` evaluates to True,TRUE
+170,pickle loads untrusted data safely,FALSE
+171,The expression `25 + 4 == 100` evaluates to True,FALSE
+172,The expression `sum(range(55)) == 1485` evaluates to True,TRUE
+173,pathlib.Path objects represent filesystem paths,TRUE
+174,"The expression `not (all(x<5 for x in [0,1,2,3,4]))` evaluates to True",FALSE
+175,super can call methods from a base class,TRUE
+176,You can use expression inside f strings like f'{2+3}',TRUE
+177,"The expression `any(x%2==0 for x in [1,3,5,6])` evaluates to True",TRUE
+178,The expression `[x*x for x in range(21)][-1] == 400` evaluates to True,TRUE
+179,The expression `-24 + 35 == -840` evaluates to True,FALSE
+180,The expression '5' + 5 produces 10,FALSE
+181,The expression `sum(x for x in range(17)) == 289` evaluates to True,FALSE
+182,The expression `sum(x for x in range(23)) == 529` evaluates to True,FALSE
+183,Multiple inheritance is supported in Python,TRUE
+184,The in operator on a dictionary tests keys by default,TRUE
+185,The expression 'abc' * 3 equals 'abcabcabc',TRUE
+186,The expression `40 * -42 == -1680` evaluates to True,TRUE
+187,bytes are sequences of integers 0 to 255,TRUE
+188,threading.Thread targets run in the same process,TRUE
+189,hash randomization can make dict order vary between processes when not insertion ordered,FALSE
+190,f strings are prefixed with f,TRUE
+191,bisect can locate insertion points in sorted lists,TRUE
+192,The expression `'python'[1:4] == ('yth'999)` evaluates to True,FALSE
+193,hash of a list works,FALSE
+194,The expression `sum(x for x in range(16)) == 256` evaluates to True,FALSE
+195,"The expression any([False, False]) equals False",TRUE
+196,threading.Lock can be used as a context manager,TRUE
+197,The expression `'mississippi'.count('ss') == 2` evaluates to True,TRUE
+198,The with statement ensures proper resource cleanup for context managers,TRUE
+199,"The expression ''.join(['a','b']) equals 'ab'",TRUE
+200,The expression `sum(x for x in range(19)) == 361` evaluates to True,FALSE
+201,Method resolution order is determined by C3 linearization,TRUE
+202,The expression `-47 * 44 == -2068` evaluates to True,TRUE
+203,"The expression `list(map(lambda x: x+1, [1,2])) == ([2,3]999)` evaluates to True",FALSE
+204,"The expression `{1,2,3}.issuperset({1,2})` evaluates to True",TRUE
+205,The expression `-9 * 48 == -432` evaluates to True,TRUE
+206,"The expression [1,2,3] == [3,2,1] is True",FALSE
+207,The expression `sum(x for x in range(3)) == 9` evaluates to True,FALSE
+208,The expression `40 + -42 == -1680` evaluates to True,FALSE
+209,json.dumps converts Python objects to JSON strings,TRUE
+210,tempfile.TemporaryDirectory cleans up on exit from its context,TRUE
+211,"The expression `max([3,1,2]) == 3` evaluates to True",TRUE
+212,The expression `sum(range(50)) == 1225` evaluates to True,TRUE
+213,A dataclass with frozen True is immutable,TRUE
+214,"The expression `{1,2,3} - {2} == ({1,3}999)` evaluates to True",FALSE
+215,The GIL allows only one thread to execute Python bytecode at a time,TRUE
+216,"The expression [1,2,3].append(4) modifies the list in place",TRUE
+217,You can annotate variables with types without enforcing them at runtime,TRUE
+218,subprocess.run can execute external programs,TRUE
+219,int supports arbitrary precision without overflow in normal use,TRUE
+220,The expression `-15 * -50 == 750` evaluates to True,TRUE
+221,The expression `-16 + 39 == -624` evaluates to True,FALSE
+222,ZeroDivisionError is raised for division by zero,TRUE
+223,The expression int(True) equals 1,TRUE
+224,The expression {x for x in 'aaab'} has length 2,TRUE
+225,A list can be used as a dictionary key,FALSE
+226,The expression `sum(i*i for i in range(4)) == 14` evaluates to True,TRUE
+227,bool of an empty set is False,TRUE
+228,"The expression `len(list(zip_longest := __import__('itertools').zip_longest([],[]))) == 0` evaluates to True",TRUE
+229,The expression `47 + -30 == -1410` evaluates to True,FALSE
+230,A lambda can contain statements,FALSE
+231,The expression `9 + -2 == -18` evaluates to True,FALSE
+232,if __name__ == '__main__' guards top level script execution,TRUE
+233,"The expression `list(filter(None, [0,1,2])) == [1,2]` evaluates to True",TRUE
+234,"The expression `max([3,1,2]) == (3999)` evaluates to True",FALSE
+235,Virtual environments help isolate dependencies,TRUE
+236,The expression `27 * -17 == -459` evaluates to True,TRUE
+237,The expression `29 + -4 == -116` evaluates to True,FALSE
+238,A Python set cannot contain duplicate elements,TRUE
+239,A tuple can be used as a dictionary key if it contains only hashable items,TRUE
+240,The expression `-47 + 44 == -2068` evaluates to True,FALSE
+241,typing.List is mainly for type hints not for runtime subclass checks,TRUE
+242,"The expression `list(map(lambda x: x+1, [1,2])) == [2,3]` evaluates to True",TRUE
+243,The expression `'abc'.capitalize() == ('Abc'999)` evaluates to True,FALSE
+244,The expression `39 + 19 == 741` evaluates to True,FALSE
+245,"The expression [1,2,3].append(4) returns [1,2,3,4]",FALSE
+246,The expression `-3 + -5 == 15` evaluates to True,FALSE
+247,The expression `'mississippi'.count('ss') == (2999)` evaluates to True,FALSE
+248,The expression 2**3 equals 8,TRUE
+249,The expression `31 + -29 == -899` evaluates to True,FALSE
+250,The expression `-46 + -47 == 2162` evaluates to True,FALSE
+251,"The expression `{1,2}.issuperset({1,2,3})` evaluates to True",FALSE
+252,The expression `-23 + 22 == -506` evaluates to True,FALSE
+253,match case can destructure sequences and mappings,TRUE
+254,open with mode 'xb' creates a file and fails if it exists,TRUE
+255,The expression sum([]) equals 0,TRUE
+256,zip stops at the shortest input,TRUE
+257,The expression `[x*x for x in range(30)][-1] == 841` evaluates to True,TRUE
+258,bytes.decode converts bytes to str,TRUE
+259,"The expression `sorted({'b':2,'a':1}) == (['a','b']999)` evaluates to True",FALSE
+260,"The expression len(set([1,1,2])) equals 2",TRUE
+261,The expression `-31 + -23 == 713` evaluates to True,FALSE
+262,The expression `sum(x for x in range(30)) == 900` evaluates to True,FALSE
+263,format can specify alignment and width,TRUE
+264,The expression 'Python'.swapcase() equals 'pYTHON',TRUE
+265,The expression `39 * 19 == 741` evaluates to True,TRUE
+266,The expression `-45 + 34 == -1530` evaluates to True,FALSE
+267,The expression float('nan') == float('nan') is True,FALSE
+268,The expression 'abc'.find('d') returns -1,TRUE
+269,The expression `[x*x for x in range(17)][-1] == 256` evaluates to True,TRUE
+270,multiprocessing.Process targets run in a separate process,TRUE
+271,The expression `49 + -43 == -2107` evaluates to True,FALSE
+272,The expression `sum(i*i for i in range(4)) == (14999)` evaluates to True,FALSE
+273,"The expression `''.join(sorted(set('aba'))) in ('ab','ba')` evaluates to True",TRUE
+274,Using dict.get on a missing key raises KeyError by default,FALSE
+275,"The expression `sum(1 for _ in zip([1,2,3],[4,5])) == (2999)` evaluates to True",FALSE
+276,asyncio.gather can run coroutines concurrently,TRUE
+277,The expression `3 + -22 == -66` evaluates to True,FALSE
+278,The expression `not ((i for i in range(3)).__iter__() is not None)` evaluates to True,FALSE
+279,The expression `-2 * -15 == 30` evaluates to True,TRUE
+280,defaultdict can supply default values for missing keys,TRUE
+281,raise can be used without specifying an exception inside an except block to re raise,TRUE
+282,"with open('x.txt','w') as f ensures f is closed on exit",TRUE
+283,The method extend adds elements from an iterable to a list,TRUE
+284,"The expression `sorted({3,1,2}) == ([1,2,3]999)` evaluates to True",FALSE
+285,The expression `sum(range(30)) == 435` evaluates to True,TRUE
+286,await can be used at top level in a normal module without an event loop,FALSE
+287,pip installs go into the standard library,FALSE
+288,The expression `49 * -43 == -2107` evaluates to True,TRUE
+289,The expression `-13 * 30 == -390` evaluates to True,TRUE
+290,decimal.Decimal can represent decimal fractions exactly,TRUE
+291,The expression `-9 + 48 == -432` evaluates to True,FALSE
+292,finally blocks run even if a return executes in try or except,TRUE
+293,The expression `[x*x for x in range(27)][-1] == 676` evaluates to True,TRUE
+294,The expression `-45 + 43 == -1935` evaluates to True,FALSE
+295,help shows documentation in an interactive pager,TRUE
+296,The expression `-21 + 14 == -294` evaluates to True,FALSE
+297,"The expression `sum(1 for _ in zip([1,2,3],[4,5])) == 2` evaluates to True",TRUE
+298,The expression `8 * 18 == 144` evaluates to True,TRUE
+299,The expression `36 + 44 == 1584` evaluates to True,FALSE
+300,The expression min([]) raises ValueError,TRUE
+301,The expression `27 + -47 == -1269` evaluates to True,FALSE
+302,Two identical small integers may be identical objects due to interning,TRUE
+303,The expression bool([0]) is True,TRUE
+304,The expression `-39 * -23 == 897` evaluates to True,TRUE
+305,"The expression {1,2,3} == {3,2,1} is True",TRUE
+306,The expression `31 + -36 == -1116` evaluates to True,FALSE
+307,The expression `29 * -4 == -116` evaluates to True,TRUE
+308,"The expression `all(x<5 for x in [0,1,2,3,4])` evaluates to True",TRUE
+309,Strings in Python are immutable,TRUE
+310,Reading a closed file succeeds,FALSE
+311,"The expression `tuple(x for x in range(3)) == (0,1,2)` evaluates to True",TRUE
+312,The expression `27 * -47 == -1269` evaluates to True,TRUE
+313,In Python bool is a subclass of int,TRUE
+314,The expression `-16 * -42 == 672` evaluates to True,TRUE
+315,The expression `sum(x for x in range(24)) == 576` evaluates to True,FALSE
+316,"The expression `{1,2}.issubset({1,2,3})` evaluates to True",TRUE
+317,The expression `[x*x for x in range(3)][-1] == 4` evaluates to True,TRUE
+318,The expression `36 * 44 == 1584` evaluates to True,TRUE
+319,math.isclose compares floats within a tolerance,TRUE
+320,A function without a return statement returns None,TRUE
+321,The default argument values are evaluated at function definition time,TRUE
+322,The expression `-7 * -15 == 105` evaluates to True,TRUE
+323,The expression print returns None,TRUE
+324,The expression 5/2 returns an int,FALSE
+325,The keyword global allows assignment to a module level name inside a function,TRUE
+326,Chained comparisons like 1 < 2 < 3 are valid syntax,TRUE
+327,The expression `[x*x for x in range(8)][-1] == 49` evaluates to True,TRUE
+328,contextlib.contextmanager can turn a generator into a context manager,TRUE
+329,The expression `sum(x for x in range(21)) == 441` evaluates to True,FALSE
+330,typing.Final indicates a name should not be reassigned,TRUE
+331,"The expression `'abc'.replace('b','x') == 'axc'` evaluates to True",TRUE
+332,The built in function id returns the memory identity of an object,TRUE
+333,PEP 8 is the official Python style guide,TRUE
+334,"round(2.675, 2) equals 2.67 in binary floating point",TRUE
+335,itertools.product produces cartesian products,TRUE
+336,The expression `[x*x for x in range(6)][-1] == 25` evaluates to True,TRUE
+337,lstrip removes from the left only,TRUE
+338,"The expression `round(2.5) in (2,3)` evaluates to True",TRUE
+339,The membership test 'z' in 'pythonista' is True,FALSE
+340,The membership test 'z' in 'abcdef' is True,FALSE
+341,The built in function ord returns the code point of a character,TRUE
+342,The expression `8 + 18 == 144` evaluates to True,FALSE
+343,copy.copy performs a shallow copy,TRUE
+344,The expression `-21 * 48 == -1008` evaluates to True,TRUE
+345,The expression `-39 + -23 == 897` evaluates to True,FALSE
+346,json.loads converts JSON strings to Python objects,TRUE
+347,The expression ''.strip() on an empty string returns '',TRUE
+348,"The expression `{1,2} | {2,3} == ({1,2,3}999)` evaluates to True",FALSE
+349,The expression `7 * 25 == 175` evaluates to True,TRUE
+350,shutil.rmtree can remove a directory tree,TRUE
+351,Negative slicing like 'abcd'[::-1] reverses the string,TRUE
+352,Exponent operator in Python is ^,FALSE
+353,The expression `47 * -30 == -1410` evaluates to True,TRUE
+354,Integer division in Python uses // not /,TRUE
+355,The expression `31 * -36 == -1116` evaluates to True,TRUE
+356,Left shift operator is <<,TRUE
+357,Dictionaries preserve insertion order in Python 3.7 and later,TRUE
+358,The expression `[x*x for x in range(18)][-1] == 289` evaluates to True,TRUE
+359,The expression `39 * 4 == 156` evaluates to True,TRUE
+360,The expression 'py' in 'python' is True,TRUE
+361,The expression `sum(x for x in range(6)) == 36` evaluates to True,FALSE
+362,"The expression all(x<10 for x in [1,9,10]) is True",FALSE
+363,In Python everything is an object including functions,TRUE
+364,The operator module exposes function versions of operators like add,TRUE
+365,The expression `[x*x for x in range(10)][-1] == 81` evaluates to True,TRUE
+366,The expression datetime.date.today() returns a date,TRUE
+367,The expression `[x*x for x in range(24)][-1] == 529` evaluates to True,TRUE
+368,Dict comprehension can map keys to values like {x: x*x for x in range(3)},TRUE
+369,"The expression `{1,2} | {2,3} == {1,2,3}` evaluates to True",TRUE
+370,"The expression `{1,2} & {2,3} == ({2}999)` evaluates to True",FALSE
+371,"The expression `list(range(0,6,2)) == [0,2,4]` evaluates to True",TRUE
+372,The expression `-41 + 27 == -1107` evaluates to True,FALSE
+373,The expression `44 + -37 == -1628` evaluates to True,FALSE
+374,The expression `-21 * 14 == -294` evaluates to True,TRUE
+375,The expression `[x*x for x in range(19)][-1] == 324` evaluates to True,TRUE
+376,await works only inside async functions,TRUE
+377,The expression `-31 * -23 == 713` evaluates to True,TRUE
+378,The module collections provides namedtuple and Counter,TRUE
+379,The expression `3 * -22 == -66` evaluates to True,TRUE
+380,The expression `-5 * -6 == 30` evaluates to True,TRUE
+381,The expression `37 * 32 == 1184` evaluates to True,TRUE
+382,The expression `sum(x for x in range(29)) == 841` evaluates to True,FALSE
+383,The expression `[x*x for x in range(20)][-1] == 361` evaluates to True,TRUE
+384,@property can make a method accessible like an attribute,TRUE
+385,The expression `sum(x for x in range(27)) == 729` evaluates to True,FALSE
+386,The expression `[x*x for x in range(25)][-1] == 576` evaluates to True,TRUE
+387,The reverse parameter for sorted reverses the sort order,TRUE
+388,The expression `sum(range(15)) == 105` evaluates to True,TRUE
+389,"The expression `sorted(['b','a','C'], key=str.lower) == ['a','b','C']` evaluates to True",TRUE
+390,The expression `25 * 4 == 100` evaluates to True,TRUE
+391,"The expression bytes('abc', 'utf8') equals b'abc'",TRUE
+392,"The expression list((1,2)) equals [1,2]",TRUE
+393,"The expression `min([3,1,2]) == (1999)` evaluates to True",FALSE
+394,The expression `23 * -26 == -598` evaluates to True,TRUE
+395,Bitwise XOR operator is ^,TRUE
+396,"The expression `len({1,1,2}) == (2999)` evaluates to True",FALSE
+397,The expression `-5 + -6 == 30` evaluates to True,FALSE
+398,Slicing beyond bounds does not raise an IndexError,TRUE
+399,"The expression 'a,b'.split(',') equals ['a','b']",TRUE
+400,The slice 'abcdef'[0:3] equals 'abc',TRUE
+401,rstrip removes from the right only,TRUE
+402,The expression (x := 3) assigns 3 to x and returns 3,TRUE
+403,strip without args removes whitespace from both ends,TRUE
+404,multiprocessing can use multiple CPU cores,TRUE
+405,The expression `sum(x for x in range(18)) == 324` evaluates to True,FALSE
+406,The expression `-10 * 1 == -10` evaluates to True,TRUE
+407,The expression None is None is True,TRUE
+408,The expression `'abc'.upper() == ('ABC'999)` evaluates to True,FALSE
+409,Namedtuple instances are immutable,TRUE
+410,Adding an existing element to a set changes its length,FALSE
+411,Tuples in Python are immutable,TRUE
+412,"The expression `sum([1,2,3]) == (6999)` evaluates to True",FALSE
+413,The expression `-13 + -40 == 520` evaluates to True,FALSE
+414,"The expression `''.join(sorted(set('aba'))) in ('zz',)` evaluates to True",FALSE
+415,list.sort sorts the list in place and returns None,TRUE
+416,The expression `38 * 21 == 798` evaluates to True,TRUE
+417,"issubclass(List[int], list) is True at runtime",FALSE
+418,The expression `sum(x for x in range(13)) == 169` evaluates to True,FALSE
+419,The module itertools provides combinations and permutations,TRUE
+420,Methods defined in a class are descriptors,TRUE
+421,The expression `-16 * 31 == -496` evaluates to True,TRUE
+422,The expression `-15 * -19 == 285` evaluates to True,TRUE
+423,assert statements can be disabled with optimization flags,TRUE
+424,f'{10:04d}' equals '0010',TRUE
+425,The expression all([]) equals True,TRUE
+426,"The expression `not (any(x%2==0 for x in [1,3,5,6]))` evaluates to True",FALSE
+427,type(3) is int,TRUE
+428,The expression `23 + -26 == -598` evaluates to True,FALSE
+429,"The expression `list(range(0,6,2)) == ([0,2,4]999)` evaluates to True",FALSE
+430,The expression `[x*x for x in range(22)][-1] == 441` evaluates to True,TRUE
+431,The expression `47 + -7 == -329` evaluates to True,FALSE
+432,The expression `sum(x for x in range(4)) == 16` evaluates to True,FALSE
+433,Lists in Python are immutable,FALSE
+434,"The expression `{1,2} & {2,3} == {2}` evaluates to True",TRUE
+435,sorted returns a new list and does not modify the original,TRUE
+436,The expression `'python'[1:4] == 'yth'` evaluates to True,TRUE
+437,try except finally always runs finally,TRUE
+438,Generators are created by functions that contain yield,TRUE
+439,heapq implements a min heap,TRUE
+440,The expression `-15 + -19 == 285` evaluates to True,FALSE
+441,The expression `-45 * 34 == -1530` evaluates to True,TRUE
+442,importing a module runs its top level code,TRUE
+443,The expression `-40 + 20 == -800` evaluates to True,FALSE
+444,"The expression `not (round(2.5) in (2,3))` evaluates to True",FALSE
+445,The expression `41 * 33 == 1353` evaluates to True,TRUE
+446,A generator computes and stores all values at once,FALSE
+447,The expression `-37 * -39 == 1443` evaluates to True,TRUE
+448,The expression `sum(x for x in range(11)) == 121` evaluates to True,FALSE
+449,The keyword pass does nothing and is used as a placeholder,TRUE
+450,The expression `sum(x for x in range(14)) == 196` evaluates to True,FALSE
+451,The expression `sum(range(25)) == 300` evaluates to True,TRUE
+452,You can assign a function to a variable and call it via the new name,TRUE
+453,"The expression `list(filter(None, [0,1,2])) == ([1,2]999)` evaluates to True",FALSE
+454,"The expression `sum([1,2,3]) == 6` evaluates to True",TRUE
+455,The expression `sum(x for x in range(10)) == 100` evaluates to True,FALSE
+456,The with statement can handle exceptions in the context manager,TRUE
+457,frozenset is an immutable set,TRUE
+458,The expression 5//2 returns 2,TRUE
+459,Two sets with the same elements are equal regardless of order,TRUE
+460,"The expression `len({1,1,2}) == 2` evaluates to True",TRUE
+461,The expression `21 + -25 == -525` evaluates to True,FALSE
+462,The expression `-4 * -30 == 120` evaluates to True,TRUE
+463,list.sort returns the sorted list,FALSE
+464,'{:.1f}'.format(3.14) equals '3.1',TRUE
+465,"The expression [1,2,3] + [4] equals [1,2,3,4]",TRUE
+466,Using a mutable default like [] can lead to shared state across calls,TRUE
+467,The expression `-16 + -42 == 672` evaluates to True,FALSE
+468,"The expression {'a':1} == {'a':1, 'b':2} is True",FALSE
+469,The expression `-13 + 30 == -390` evaluates to True,FALSE
+470,The expression [] is [] is True,FALSE
+471,"The expression `'abc'.replace('b','x') == ('axc'999)` evaluates to True",FALSE
+472,"The expression `{1,2,3}.issubset({1,2})` evaluates to True",FALSE
+473,Opening a file without closing it may leak resources,TRUE
+474,Counter can count hashable items from an iterable,TRUE
+475,A context manager must define __enter__ and __exit__,TRUE
+476,dir shows attributes of an object,TRUE
+477,The membership test 'z' in 'data science' is True,FALSE
+478,The expression `[x*x for x in range(11)][-1] == 100` evaluates to True,TRUE
+479,The expression `'abc'.capitalize() == 'Abc'` evaluates to True,TRUE
+480,"The expression all([True, True, False]) is True",FALSE
+481,The expression `-35 + -2 == 70` evaluates to True,FALSE
+482,enumerate yields index and value pairs,TRUE
+483,"The expression `sorted(['b','a','C'], key=str.lower) == (['a','b','C']999)` evaluates to True",FALSE
+484,The expression `sum(range(45)) == 990` evaluates to True,TRUE
+485,The expression `-35 * -2 == 70` evaluates to True,TRUE
+486,bytearray is mutable while bytes is immutable,TRUE
+487,Reading a non existent file without handling exceptions raises FileNotFoundError,TRUE
+488,re module provides regular expressions,TRUE
+489,KeyError is raised when accessing a missing dict key with indexing,TRUE
+490,"The expression `dict(a=1,b=2)['a'] == 1` evaluates to True",TRUE
+491,The expression `-22 * -33 == 726` evaluates to True,TRUE
+492,The expression `sum(x for x in range(15)) == 225` evaluates to True,FALSE
+493,The expression `sum(x for x in range(7)) == 49` evaluates to True,FALSE
+494,secrets module is preferred for cryptographic randomness,TRUE
+495,The expression `'python'[::-1] == ('nohtyp'999)` evaluates to True,FALSE
+496,The expression `19 * -39 == -741` evaluates to True,TRUE
+497,The expression [ [0]*2 ]*2 creates two independent lists,FALSE
+498,An async function can be called directly without awaiting and it runs to completion immediately,FALSE
+499,The expression `47 * -7 == -329` evaluates to True,TRUE
+500,The expression `sum(x for x in range(5)) == 25` evaluates to True,FALSE

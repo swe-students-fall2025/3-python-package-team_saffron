@@ -1,0 +1,501 @@
+Question ID,Question,Option A,Option B,Option C,Option D,Option E,Answer,Explanation
+1,What is the value of s=pythonista then print(s[0:4]),pyth,yth,None of the above,pytho,pythonista,pyth,pyth is correct based on how this feature behaves in Python.
+2,What does list({1: a  2: b}) evaluate to,[1  2],[(1 a) (2 b)],[2 1],[1 2],None of the above,[1  2],[1  2] is correct based on how this feature behaves in Python.
+3,What does functools.lru_cache do,Stores results only for keyword arguments,Caches function results keyed by arguments to avoid recomputation,Validates argument types at runtime,Converts a function into a generator,Parallelizes the function across threads,Caches function results keyed by arguments to avoid recomputation,lru_cache remembers results for argument combinations so repeats are instant.
+4,What is the value of s=pythonista then print(s[2:5]),None of the above,pytho,thonista,ho,tho,tho,tho is correct based on how this feature behaves in Python.
+5,What is the output of print({1 2 3} < {1 2 3 4}),[],FALSE,Error,None of the above,TRUE,TRUE,True is correct based on how this feature behaves in Python.
+6,What is the value of s=pythonista then print(s[0:5]),pytho,ytho,pythonista,None of the above,python,pytho,pytho is correct based on how this feature behaves in Python.
+7,What is the output of print(sum(i*i for i in range(7))),None of the above,21,91,49,36,91,91 is correct based on how this feature behaves in Python.
+8,What is output of print({}.setdefault(x [])),KeyError,[x],None,None of the above,[],[],[] is correct based on how this feature behaves in Python.
+9,What does itertools.groupby require to group equal keys correctly,The key function must return unique values,The input must be a list not an iterator,The input must be pre sorted by the same key function,The keys must be strings,The values must be numbers,The input must be pre sorted by the same key function,groupby only groups adjacent equal keys so you must sort first.
+10,Which statement about decorators is accurate,A decorator always speeds up function execution,A decorator changes the function name at runtime in CPython,A decorator can only be applied to async functions,A decorator must be a class not a function,A decorator wraps a function to modify behavior without changing the function code,A decorator wraps a function to modify behavior without changing the function code,A decorator takes a function and returns a new callable that adds behavior around it.
+11,What is the value of s=pythonista then print(s[3:6]),hon,honista,None of the above,on,honi,hon,hon is correct based on how this feature behaves in Python.
+12,What is the output of print(sum(i*i for i in range(6))),36,None of the above,25,Error,55,55,55 is correct based on how this feature behaves in Python.
+13,What is the value of s=pythonista then print(s[0:5]),ytho,pytho,python,pythonista,None of the above,pytho,pytho is correct based on how this feature behaves in Python.
+14,What is the output of print(sum(i*i for i in range(5))),14,55,10,25,30,30,Squares 0 1 4 9 16 add up to 30.
+15,What is the output of print({i:i*i for i in range(3)}[2]),4,2,0,None of the above,3,4,Comprehension maps 2 to 4 so indexing by 2 returns 4.
+16,What is the output of print(sum(i*i for i in range(7))),Error,91,36,None of the above,49,91,91 is correct based on how this feature behaves in Python.
+17,What is the value of s=pythonista then print(s[0:2]),pythonista,pyt,py,y,None of the above,py,py is correct based on how this feature behaves in Python.
+18,What is the result of print(dict.fromkeys(aba 0)),{a: 0},{a:0 b:0 c:0},{a: 0  b: 0},{a:0 b:0 a:0},None of the above,{a: 0  b: 0},{a: 0  b: 0} is correct based on how this feature behaves in Python.
+19,What is the output of print(sum(i*i for i in range(4))),Error,None of the above,9,6,14,14,14 is correct based on how this feature behaves in Python.
+20,What is the output of print(sum(i*i for i in range(7))),91,21,Error,36,None of the above,91,91 is correct based on how this feature behaves in Python.
+21,What is the value of s=pythonista then print(s[0:5]),python,ytho,pythonista,pytho,None of the above,pytho,pytho is correct based on how this feature behaves in Python.
+22,What does print((1 2) < (1 3)) produce,None of the above,None,TRUE,0,Error,TRUE,True is correct based on how this feature behaves in Python.
+23,What is the output of print(sum(i*i for i in range(3))),Error,9,4,5,3,5,5 is correct based on how this feature behaves in Python.
+24,What is the output of print(sum(i*i for i in range(5))),10,None of the above,16,Error,30,30,Squares 0 1 4 9 16 add up to 30.
+25,What is the output of print(sum(i*i for i in range(7))),49,21,91,36,Error,91,91 is correct based on how this feature behaves in Python.
+26,What is the output of print(sum(i*i for i in range(7))),Error,91,36,49,None of the above,91,91 is correct based on how this feature behaves in Python.
+27,What is the value of len(set(mississippi)),3,5,4,None of the above,8,4,4 is correct based on how this feature behaves in Python.
+28,What does print((1 2) < (1 3)) produce,0,None of the above,FALSE,TRUE,None,TRUE,True is correct based on how this feature behaves in Python.
+29,What is the value of s=pythonista then print(s[2:5]),tho,pytho,None of the above,thon,ho,tho,tho is correct based on how this feature behaves in Python.
+30,What is the output of print(sum(i*i for i in range(5))),None of the above,Error,30,10,16,30,Squares 0 1 4 9 16 add up to 30.
+31,What is output of print(a * 0 or b),None of the above,a,0,,b,b,b is correct based on how this feature behaves in Python.
+32,What does functools.lru_cache do,Caches function results keyed by arguments to avoid recomputation,Converts a function into a generator,Stores results only for keyword arguments,Validates argument types at runtime,Parallelizes the function across threads,Caches function results keyed by arguments to avoid recomputation,lru_cache remembers results for argument combinations so repeats are instant.
+33,What is the output of print(sum(i*i for i in range(7))),Error,49,None of the above,36,91,91,91 is correct based on how this feature behaves in Python.
+34,What is the output of print(sum(i*i for i in range(5))),25,None of the above,16,Error,30,30,Squares 0 1 4 9 16 add up to 30.
+35,What is the value of s=pythonista then print(s[3:7]),honista,honi,None of the above,honis,pythoni,honi,honi is correct based on how this feature behaves in Python.
+36,What is the output of print(sum(i*i for i in range(7))),91,Error,None of the above,21,36,91,91 is correct based on how this feature behaves in Python.
+37,What is the value of s=pythonista then print(s[2:5]),pytho,tho,None of the above,ho,thonista,tho,tho is correct based on how this feature behaves in Python.
+38,What is the output of print(sum(i*i for i in range(7))),49,None of the above,91,Error,21,91,91 is correct based on how this feature behaves in Python.
+39,What is printed by print(any([])),None of the above,0,FALSE,TRUE,Error,FALSE,any of an empty iterable is False as there is no truthy element.
+40,What is the output of print(sum(i*i for i in range(3))),3,9,Error,None of the above,5,5,5 is correct based on how this feature behaves in Python.
+41,What is the value of s=pythonista then print(s[0:3]),None of the above,pyt,pythonista,yt,pyth,pyt,pyt is correct based on how this feature behaves in Python.
+42,What is the output of print(sum(i*i for i in range(5))),30,16,Error,25,None of the above,30,Squares 0 1 4 9 16 add up to 30.
+43,What is the value of s=pythonista then print(s[0:3]),pyt,None of the above,pyth,pythonista,yt,pyt,pyt is correct based on how this feature behaves in Python.
+44,What is the output of print(sum(i*i for i in range(6))),25,15,36,None of the above,55,55,55 is correct based on how this feature behaves in Python.
+45,What is the value of s=pythonista then print(s[0:5]),pytho,pythonista,python,ytho,None of the above,pytho,pytho is correct based on how this feature behaves in Python.
+46,What is the output of print(sum(i*i for i in range(6))),15,Error,55,None of the above,36,55,55 is correct based on how this feature behaves in Python.
+47,What is the value of s=pythonista then print(s[1:6]),ythoni,ython,None of the above,thon,ythonista,ython,ython is correct based on how this feature behaves in Python.
+48,What is the value of s=pythonista then print(s[3:7]),honis,None of the above,honi,pythoni,oni,honi,honi is correct based on how this feature behaves in Python.
+49,What is the result of print(dict.fromkeys(aba 0)),None of the above,{a: 0  b: 0},{a: 0},{a:0 b:0 a:0},{b:0},{a: 0  b: 0},{a: 0  b: 0} is correct based on how this feature behaves in Python.
+50,What is the output of print(sum(i*i for i in range(5))),None of the above,25,10,30,Error,30,Squares 0 1 4 9 16 add up to 30.
+51,What is the output of print(sum(i*i for i in range(3))),5,Error,4,None of the above,9,5,5 is correct based on how this feature behaves in Python.
+52,What is the output of print(sum(i*i for i in range(3))),5,4,3,9,Error,5,5 is correct based on how this feature behaves in Python.
+53,What does print(all([])) return,FALSE,0,None,None of the above,TRUE,TRUE,all of an empty iterable is True by definition vacuously true.
+54,What is the output of print(sum(i*i for i in range(7))),21,91,Error,None of the above,36,91,91 is correct based on how this feature behaves in Python.
+55,What is the output of print(sum(i*i for i in range(7))),91,None of the above,36,21,49,91,91 is correct based on how this feature behaves in Python.
+56,What is the output of print(sum(i*i for i in range(4))),16,Error,14,None of the above,6,14,14 is correct based on how this feature behaves in Python.
+57,What is the value of s=pythonista then print(s[0:4]),pyth,yth,None of the above,pythonista,pytho,pyth,pyth is correct based on how this feature behaves in Python.
+58,What is the output of print(sum(i*i for i in range(5))),30,25,None of the above,10,16,30,Squares 0 1 4 9 16 add up to 30.
+59,What is the value of s=pythonista then print(s[3:8]),honista,None of the above,onis,pythonis,honis,honis,honis is correct based on how this feature behaves in Python.
+60,What is the output of print(sum(i*i for i in range(3))),9,5,None of the above,3,4,5,5 is correct based on how this feature behaves in Python.
+61,What is the output of print(sum(i*i for i in range(7))),36,Error,21,91,None of the above,91,91 is correct based on how this feature behaves in Python.
+62,What is the value of s=pythonista then print(s[3:5]),pytho,ho,None of the above,honista,o,ho,ho is correct based on how this feature behaves in Python.
+63,What is the value of s=pythonista then print(s[0:2]),pyt,py,y,pythonista,None of the above,py,py is correct based on how this feature behaves in Python.
+64,What is the output of print(sum(i*i for i in range(4))),16,Error,None of the above,9,14,14,14 is correct based on how this feature behaves in Python.
+65,What is the output of print(sum(i*i for i in range(7))),49,None of the above,36,21,91,91,91 is correct based on how this feature behaves in Python.
+66,What is printed by print(any([])),None,FALSE,None of the above,0,Error,FALSE,any of an empty iterable is False as there is no truthy element.
+67,What is the output of print(sum(i*i for i in range(6))),36,55,25,None of the above,Error,55,55 is correct based on how this feature behaves in Python.
+68,Which statement about list vs deque is accurate,deque provides faster appends and pops from both ends while list is fast at random access,None of the above,list has O1 inserts at the front,list is always faster than deque for all operations,deque supports O1 random indexing,deque provides faster appends and pops from both ends while list is fast at random access,deque shines at both ends push and pop while list is better at random indexing.
+69,Which statement about decorators is accurate,A decorator always speeds up function execution,A decorator can only be applied to async functions,A decorator wraps a function to modify behavior without changing the function code,A decorator must be a class not a function,A decorator changes the function name at runtime in CPython,A decorator wraps a function to modify behavior without changing the function code,A decorator takes a function and returns a new callable that adds behavior around it.
+70,What is the output of print(sum(i*i for i in range(3))),5,4,9,Error,None of the above,5,5 is correct based on how this feature behaves in Python.
+71,What is the output of print(sum(i*i for i in range(7))),21,36,91,49,Error,91,91 is correct based on how this feature behaves in Python.
+72,What is the output of print(sum(i*i for i in range(5))),25,None of the above,Error,10,30,30,Squares 0 1 4 9 16 add up to 30.
+73,What is the value of s=pythonista then print(s[2:6]),hon,None of the above,thoni,python,thon,thon,thon is correct based on how this feature behaves in Python.
+74,What is the output of print(sum(i*i for i in range(6))),25,55,15,Error,None of the above,55,55 is correct based on how this feature behaves in Python.
+75,What is the output of print(sum(i*i for i in range(6))),36,55,None of the above,15,Error,55,55 is correct based on how this feature behaves in Python.
+76,What does functools.lru_cache do,Caches function results keyed by arguments to avoid recomputation,Converts a function into a generator,Parallelizes the function across threads,Stores results only for keyword arguments,Validates argument types at runtime,Caches function results keyed by arguments to avoid recomputation,lru_cache remembers results for argument combinations so repeats are instant.
+77,What is the output of print(sum(i*i for i in range(7))),49,Error,21,91,None of the above,91,91 is correct based on how this feature behaves in Python.
+78,What is the value of s=pythonista then print(s[2:4]),None of the above,h,tho,pyth,th,th,th is correct based on how this feature behaves in Python.
+79,What is the value of s=pythonista then print(s[0:3]),pyt,pythonista,pyth,yt,None of the above,pyt,pyt is correct based on how this feature behaves in Python.
+80,What is the output of print(sum(i*i for i in range(4))),None of the above,Error,14,6,9,14,14 is correct based on how this feature behaves in Python.
+81,Which statement about float NaN is correct,None of the above,NaN sorts to the beginning in all Python sorts,NaN is equal to 0 0 by default,NaN is not equal to itself by IEEE rules so x == x is False for NaN,NaN compares greater than all numbers,NaN is not equal to itself by IEEE rules so x == x is False for NaN,NaN is special and never equals itself which is why equality tests fail.
+82,What is the value of s=pythonista then print(s[3:5]),pytho,o,honista,ho,None of the above,ho,ho is correct based on how this feature behaves in Python.
+83,What is the output of print(sum(i*i for i in range(6))),36,Error,55,None of the above,25,55,55 is correct based on how this feature behaves in Python.
+84,Which statement about float NaN is correct,NaN sorts to the beginning in all Python sorts,NaN compares greater than all numbers,NaN is treated as None by min and max,NaN is not equal to itself by IEEE rules so x == x is False for NaN,NaN is equal to 0 0 by default,NaN is not equal to itself by IEEE rules so x == x is False for NaN,NaN is special and never equals itself which is why equality tests fail.
+85,What is the output of print(sum(i*i for i in range(6))),25,55,Error,None of the above,15,55,55 is correct based on how this feature behaves in Python.
+86,What is the output of print(sum(i*i for i in range(3))),None of the above,Error,5,4,3,5,5 is correct based on how this feature behaves in Python.
+87,What is the value of s=pythonista then print(s[0:2]),y,None of the above,pythonista,pyt,py,py,py is correct based on how this feature behaves in Python.
+88,What is the value of s=pythonista then print(s[1:6]),None of the above,thon,ython,ythonista,python,ython,ython is correct based on how this feature behaves in Python.
+89,Which description of asyncio.gather is accurate,Blocks the event loop until all tasks finish via time sleep,Guarantees order of completion equals input order,Starts new processes for each task,Cancels all tasks on the first exception always,Runs multiple awaitables concurrently and aggregates their results,Runs multiple awaitables concurrently and aggregates their results,gather runs many coroutines at once and returns all results together.
+90,What is the value of s=pythonista then print(s[0:4]),pytho,yth,None of the above,pythonista,pyth,pyth,pyth is correct based on how this feature behaves in Python.
+91,What is the value of s=pythonista then print(s[0:2]),pyt,pythonista,y,None of the above,py,py,py is correct based on how this feature behaves in Python.
+92,What is the output of print(sum(i*i for i in range(3))),Error,None of the above,5,3,9,5,5 is correct based on how this feature behaves in Python.
+93,What is the value of s=pythonista then print(s[3:6]),honista,hon,None of the above,python,honi,hon,hon is correct based on how this feature behaves in Python.
+94,What is the output of print(sum(i*i for i in range(5))),Error,10,16,30,25,30,Squares 0 1 4 9 16 add up to 30.
+95,What is the value of s=pythonista then print(s[1:6]),ythonista,python,None of the above,ythoni,ython,ython,ython is correct based on how this feature behaves in Python.
+96,What is the output of print(sum(i*i for i in range(4))),16,14,9,Error,6,14,14 is correct based on how this feature behaves in Python.
+97,What is the output of print(sum(i*i for i in range(4))),14,6,None of the above,Error,9,14,14 is correct based on how this feature behaves in Python.
+98,What is the value of s=pythonista then print(s[3:7]),honis,oni,None of the above,honi,honista,honi,honi is correct based on how this feature behaves in Python.
+99,What is the value of s=pythonista then print(s[0:5]),pythonista,pytho,ytho,None of the above,python,pytho,pytho is correct based on how this feature behaves in Python.
+100,What is the output of print(sum(i*i for i in range(7))),None of the above,Error,49,21,91,91,91 is correct based on how this feature behaves in Python.
+101,What is the output of print(sum(i*i for i in range(6))),25,36,Error,15,55,55,55 is correct based on how this feature behaves in Python.
+102,What is the output of print(sum(i*i for i in range(6))),55,None of the above,25,15,Error,55,55 is correct based on how this feature behaves in Python.
+103,What is the output of print(sum(i*i for i in range(5))),None of the above,25,30,16,Error,30,Squares 0 1 4 9 16 add up to 30.
+104,What is the output of print(sum(i*i for i in range(4))),None of the above,6,9,16,14,14,14 is correct based on how this feature behaves in Python.
+105,What is output of print({}.setdefault(x [])),[x],{},[],None of the above,None,[],[] is correct based on how this feature behaves in Python.
+106,What does print(all([])) return,TRUE,FALSE,None,None of the above,0,TRUE,all of an empty iterable is True by definition vacuously true.
+107,What is the value of s=pythonista then print(s[1:5]),pytho,tho,None of the above,ythonista,ytho,ytho,ytho is correct based on how this feature behaves in Python.
+108,What is the output of print(sum(i*i for i in range(7))),49,21,Error,None of the above,91,91,91 is correct based on how this feature behaves in Python.
+109,What is the output of print(sum(i*i for i in range(5))),10,25,30,55,None of the above,30,Squares 0 1 4 9 16 add up to 30.
+110,What is output of print(bool(object())),TRUE,None of the above,0,None,Error,TRUE,Any object instance is truthy so bool is True.
+111,What is printed by print(any([])),0,Error,TRUE,FALSE,None of the above,FALSE,any of an empty iterable is False as there is no truthy element.
+112,What is the value of s=pythonista then print(s[0:4]),pyth,pythonista,None of the above,yth,pytho,pyth,pyth is correct based on how this feature behaves in Python.
+113,What is the output of print(sum(i*i for i in range(6))),36,None of the above,Error,55,15,55,55 is correct based on how this feature behaves in Python.
+114,What is the value of s=pythonista then print(s[3:7]),honista,oni,None of the above,honi,pythoni,honi,honi is correct based on how this feature behaves in Python.
+115,What is the value of s=pythonista then print(s[2:7]),honi,thonista,thonis,pythoni,thoni,thoni,thoni is correct based on how this feature behaves in Python.
+116,What is structural pattern matching match case primarily used for,Pattern matching only works with strings,Destructuring and matching data shapes like sequences mappings and classes,Switching on integer constants only,Dynamic type casting at runtime,Replacing if else for arithmetic,Destructuring and matching data shapes like sequences mappings and classes,match case can unpack and test shapes of data not just values.
+117,What is output of print({}.setdefault(x [])),None of the above,[x],{},[],KeyError,[],[] is correct based on how this feature behaves in Python.
+118,What is the output of print(sum(i*i for i in range(5))),Error,25,30,16,None of the above,30,Squares 0 1 4 9 16 add up to 30.
+119,What is the output of print(sum(i*i for i in range(4))),None of the above,6,16,9,14,14,14 is correct based on how this feature behaves in Python.
+120,Which method makes an object usable in a with statement,__enter__ and __exit__,__init__ and __del__,__aenter__ and __aexit__ only,__get__ and __set__,__iter__ and __next__,__enter__ and __exit__,with calls __enter__ on enter and __exit__ on exit to handle setup and cleanup.
+121,What is the output of print(sum(i*i for i in range(5))),10,25,30,16,Error,30,Squares 0 1 4 9 16 add up to 30.
+122,What is the value of s=pythonista then print(s[1:3]),t,None of the above,yt,yth,pyt,yt,yt is correct based on how this feature behaves in Python.
+123,What is the value of s=pythonista then print(s[3:6]),None of the above,python,honi,honista,hon,hon,hon is correct based on how this feature behaves in Python.
+124,In typing what does Protocol represent,A metaclass for ABCs,A runtime enforced interface,A network protocol implementation,A final class that cannot be subclassed,A structural type based on method signatures rather than concrete inheritance,A structural type based on method signatures rather than concrete inheritance,Protocol checks that a type has the right methods regardless of its base classes.
+125,What is printed by print(any([])),Error,0,None of the above,FALSE,None,FALSE,any of an empty iterable is False as there is no truthy element.
+126,What is the value of s=pythonista then print(s[3:8]),onis,honist,honis,pythonis,None of the above,honis,honis is correct based on how this feature behaves in Python.
+127,Which statement about __slots__ is correct,__slots__ speeds up all attribute access always,__slots__ makes a class immutable,__slots__ enables multiple inheritance without MRO,__slots__ is required for dataclasses,__slots__ can reduce memory by preventing instance dict creation,__slots__ can reduce memory by preventing instance dict creation,Slots remove the per instance dict so instances can be smaller.
+128,What is the output of print(sum(i*i for i in range(4))),9,6,None of the above,Error,14,14,14 is correct based on how this feature behaves in Python.
+129,What is the result of s=abba; print(s.replace(b bb 1)),abbba,abbaa,abba,abbbba,None of the above,abbba,replace with count 1 replaces only the first match so one b becomes bb.
+130,What is the output of print(sum(i*i for i in range(4))),6,16,Error,14,None of the above,14,14 is correct based on how this feature behaves in Python.
+131,What is the output of print(sum(i*i for i in range(3))),4,None of the above,5,9,3,5,5 is correct based on how this feature behaves in Python.
+132,What does print(type(range(3)).__name__) output,tuple,iterator,list,generator,range,range,range objects have type name range.
+133,What is the output of print(sum(i*i for i in range(3))),None of the above,5,4,3,9,5,5 is correct based on how this feature behaves in Python.
+134,What is the output of print([i for i in range(3)] is [0 1 2]),None of the above,FALSE,0,[0 1 2],TRUE,FALSE,False is correct based on how this feature behaves in Python.
+135,What is the value of s=pythonista then print(s[0:4]),pythonista,pyth,yth,pytho,None of the above,pyth,pyth is correct based on how this feature behaves in Python.
+136,What is the value of s=pythonista then print(s[3:5]),ho,pytho,None of the above,hon,o,ho,ho is correct based on how this feature behaves in Python.
+137,What is the output of print(sum(i*i for i in range(4))),16,6,None of the above,14,9,14,14 is correct based on how this feature behaves in Python.
+138,What does bisect.insort do,Sorts a list in place using mergesort,Removes duplicates from a list,Inserts an item into a sorted list keeping it sorted,Builds a heap from a list,Performs a binary search returning an index only,Inserts an item into a sorted list keeping it sorted,insort inserts while keeping the list sorted using binary search.
+139,What is the output of print(sum(i*i for i in range(5))),None of the above,Error,10,30,25,30,Squares 0 1 4 9 16 add up to 30.
+140,What is the value of s=pythonista then print(s[0:5]),None of the above,python,pytho,ytho,pythonista,pytho,pytho is correct based on how this feature behaves in Python.
+141,What is the output of print(sum(i*i for i in range(7))),91,Error,None of the above,36,49,91,91 is correct based on how this feature behaves in Python.
+142,What is the value of s=pythonista then print(s[3:5]),hon,honista,None of the above,ho,pytho,ho,ho is correct based on how this feature behaves in Python.
+143,What is the value of len(set(mississippi)),8,5,7,3,4,4,4 is correct based on how this feature behaves in Python.
+144,What is the value of s=pythonista then print(s[2:7]),honi,thonista,pythoni,None of the above,thoni,thoni,thoni is correct based on how this feature behaves in Python.
+145,What does print((1 2) < (1 3)) produce,FALSE,Error,None,None of the above,TRUE,TRUE,True is correct based on how this feature behaves in Python.
+146,What is the value of s=pythonista then print(s[2:6]),thonista,thoni,thon,None of the above,hon,thon,thon is correct based on how this feature behaves in Python.
+147,What is the value of s=pythonista then print(s[1:3]),ythonista,None of the above,yth,t,yt,yt,yt is correct based on how this feature behaves in Python.
+148,What is the value of s=pythonista then print(s[3:5]),honista,hon,ho,None of the above,o,ho,ho is correct based on how this feature behaves in Python.
+149,Which statement about list vs deque is accurate,deque supports O1 random indexing,list has O1 inserts at the front,deque cannot be iterated,list is always faster than deque for all operations,deque provides faster appends and pops from both ends while list is fast at random access,deque provides faster appends and pops from both ends while list is fast at random access,deque shines at both ends push and pop while list is better at random indexing.
+150,What is the output of print({a:1}.get(b) is None),FALSE,0,KeyError,TRUE,None,TRUE,True is correct based on how this feature behaves in Python.
+151,What is the output of print(sum(i*i for i in range(4))),Error,16,None of the above,9,14,14,14 is correct based on how this feature behaves in Python.
+152,What is the value of len(set(mississippi)),8,7,4,None of the above,5,4,4 is correct based on how this feature behaves in Python.
+153,What is the value of s=pythonista then print(s[0:3]),pyth,yt,pyt,pythonista,None of the above,pyt,pyt is correct based on how this feature behaves in Python.
+154,What is the output of print(sum(i*i for i in range(5))),None of the above,30,10,25,Error,30,Squares 0 1 4 9 16 add up to 30.
+155,Which best describes the Global Interpreter Lock GIL,It locks the entire operating system scheduler,It blocks C extensions from running in parallel,It disables asyncio,It prevents subprocesses from spawning,It allows only one thread to execute Python bytecode at a time per process,It allows only one thread to execute Python bytecode at a time per process,The GIL lets only one thread run Python bytecode at once inside a process.
+156,What is the value of s=pythonista then print(s[2:4]),h,None of the above,tho,th,pyth,th,th is correct based on how this feature behaves in Python.
+157,What is the value of s=pythonista then print(s[0:2]),py,None of the above,pyt,y,pythonista,py,py is correct based on how this feature behaves in Python.
+158,What is the output of print(sum(i*i for i in range(5))),30,10,None of the above,16,Error,30,Squares 0 1 4 9 16 add up to 30.
+159,What does the walrus operator do,None of the above,It assigns and returns a value inside an expression,It defines a lambda,It performs integer division,It creates a context manager,It assigns and returns a value inside an expression,Walrus operator lets you assign a value as part of an expression.
+160,What is the output of print([i for i in range(3)] is [0 1 2]),None of the above,TRUE,Error,FALSE,[0 1 2],FALSE,False is correct based on how this feature behaves in Python.
+161,What is the result of s=abba; print(s.replace(b bb 1)),None of the above,abba,abbba,abbbba,a bb a,abbba,replace with count 1 replaces only the first match so one b becomes bb.
+162,What is the output of print(sum(i*i for i in range(5))),30,10,None of the above,14,55,30,Squares 0 1 4 9 16 add up to 30.
+163,What is the value of s=pythonista then print(s[1:6]),None of the above,python,ythoni,ython,ythonista,ython,ython is correct based on how this feature behaves in Python.
+164,What is the output of print(sum(i*i for i in range(6))),36,15,Error,55,25,55,55 is correct based on how this feature behaves in Python.
+165,What is the output of print([i for i in range(3)] is [0 1 2]),None of the above,Error,[0 1 2],FALSE,0,FALSE,False is correct based on how this feature behaves in Python.
+166,What is the output of print(sum(i*i for i in range(7))),36,None of the above,21,91,Error,91,91 is correct based on how this feature behaves in Python.
+167,What is the output of print(sum(i*i for i in range(7))),91,49,36,None of the above,Error,91,91 is correct based on how this feature behaves in Python.
+168,What is the output of print(sum(i*i for i in range(5))),30,25,16,Error,None of the above,30,Squares 0 1 4 9 16 add up to 30.
+169,What is the value of s=pythonista then print(s[0:3]),pyt,None of the above,pyth,pythonista,yt,pyt,pyt is correct based on how this feature behaves in Python.
+170,What is the value of s=pythonista then print(s[2:5]),ho,tho,pytho,thonista,None of the above,tho,tho is correct based on how this feature behaves in Python.
+171,What is the output of print(sum(i*i for i in range(6))),55,Error,25,None of the above,36,55,55 is correct based on how this feature behaves in Python.
+172,What does list({1: a  2: b}) evaluate to,[2 1],[1  2],None of the above,[a b],[(1 a) (2 b)],[1  2],[1  2] is correct based on how this feature behaves in Python.
+173,What is the output of print(tuple(map(lambda x:x+1 (1 2)))),(2  3),None of the above,(2 3 4),(1 2 3),(1 3),(2  3),(2  3) is correct based on how this feature behaves in Python.
+174,What is the value of s=pythonista then print(s[1:3]),yt,t,ythonista,yth,pyt,yt,yt is correct based on how this feature behaves in Python.
+175,Which built in is most appropriate for a stable sort with a custom key,heapq.nsmallest for all elements,reversed then sort,sorted with the key parameter,list.sort without key,bisect.insort for unsorted lists,sorted with the key parameter,sorted with key keeps equal keys in input order and uses the key for comparisons.
+176,What is the output of print(sum(i*i for i in range(6))),55,25,Error,36,None of the above,55,55 is correct based on how this feature behaves in Python.
+177,What is the output of print(sum(i*i for i in range(3))),Error,5,3,4,9,5,5 is correct based on how this feature behaves in Python.
+178,What is the value of s=pythonista then print(s[1:3]),pyt,None of the above,t,yth,yt,yt,yt is correct based on how this feature behaves in Python.
+179,What is the value of s=pythonista then print(s[0:5]),python,pytho,ytho,pythonista,None of the above,pytho,pytho is correct based on how this feature behaves in Python.
+180,What is the value of s=pythonista then print(s[0:5]),pythonista,ytho,None of the above,pytho,python,pytho,pytho is correct based on how this feature behaves in Python.
+181,Which best describes the Global Interpreter Lock GIL,It prevents subprocesses from spawning,It blocks C extensions from running in parallel,It allows only one thread to execute Python bytecode at a time per process,It locks the entire operating system scheduler,It disables asyncio,It allows only one thread to execute Python bytecode at a time per process,The GIL lets only one thread run Python bytecode at once inside a process.
+182,What is the output of print(sum(i*i for i in range(5))),None of the above,30,25,10,Error,30,Squares 0 1 4 9 16 add up to 30.
+183,What is the value of s=pythonista then print(s[1:4]),pyth,yth,None of the above,ytho,ythonista,yth,yth is correct based on how this feature behaves in Python.
+184,What is the value of len(set(mississippi)),8,4,3,5,7,4,4 is correct based on how this feature behaves in Python.
+185,What is the value of s=pythonista then print(s[1:5]),ython,None of the above,ytho,ythonista,tho,ytho,ytho is correct based on how this feature behaves in Python.
+186,What is the value of s=pythonista then print(s[3:8]),onis,honis,None of the above,honista,pythonis,honis,honis is correct based on how this feature behaves in Python.
+187,What is the value of s=pythonista then print(s[3:8]),honist,onis,honis,pythonis,None of the above,honis,honis is correct based on how this feature behaves in Python.
+188,What is the output of print(sum(i*i for i in range(7))),49,Error,91,21,None of the above,91,91 is correct based on how this feature behaves in Python.
+189,What is the value of s=pythonista then print(s[3:6]),None of the above,on,hon,honi,python,hon,hon is correct based on how this feature behaves in Python.
+190,What is the value of s=pythonista then print(s[1:6]),ython,python,None of the above,thon,ythoni,ython,ython is correct based on how this feature behaves in Python.
+191,What is the output of print(sum(i*i for i in range(3))),None of the above,Error,4,3,5,5,5 is correct based on how this feature behaves in Python.
+192,What is the output of print(sum(i*i for i in range(6))),15,None of the above,55,Error,36,55,55 is correct based on how this feature behaves in Python.
+193,What is the value of s=pythonista then print(s[3:6]),honista,on,None of the above,honi,hon,hon,hon is correct based on how this feature behaves in Python.
+194,What is the output of print(sum(i*i for i in range(5))),25,10,Error,None of the above,30,30,Squares 0 1 4 9 16 add up to 30.
+195,Which built in is most appropriate for a stable sort with a custom key,list.sort without key,bisect.insort for unsorted lists,heapq.nsmallest for all elements,reversed then sort,sorted with the key parameter,sorted with the key parameter,sorted with key keeps equal keys in input order and uses the key for comparisons.
+196,What does list({1: a  2: b}) evaluate to,[1  2],[a b],[2 1],None of the above,[(1 a) (2 b)],[1  2],[1  2] is correct based on how this feature behaves in Python.
+197,Which statement about decorators is accurate,A decorator changes the function name at runtime in CPython,A decorator can only be applied to async functions,None of the above,A decorator must be a class not a function,A decorator wraps a function to modify behavior without changing the function code,A decorator wraps a function to modify behavior without changing the function code,A decorator takes a function and returns a new callable that adds behavior around it.
+198,What is output of print(bool(object())),FALSE,None,TRUE,0,None of the above,TRUE,Any object instance is truthy so bool is True.
+199,What does itertools.groupby require to group equal keys correctly,The values must be numbers,The input must be pre sorted by the same key function,None of the above,The key function must return unique values,The input must be a list not an iterator,The input must be pre sorted by the same key function,groupby only groups adjacent equal keys so you must sort first.
+200,What is the value of s=pythonista then print(s[3:7]),honis,honista,pythoni,honi,None of the above,honi,honi is correct based on how this feature behaves in Python.
+201,What is the value of s=pythonista then print(s[0:3]),pyth,None of the above,pyt,pythonista,yt,pyt,pyt is correct based on how this feature behaves in Python.
+202,What is structural pattern matching match case primarily used for,Destructuring and matching data shapes like sequences mappings and classes,Switching on integer constants only,Dynamic type casting at runtime,Replacing if else for arithmetic,Pattern matching only works with strings,Destructuring and matching data shapes like sequences mappings and classes,match case can unpack and test shapes of data not just values.
+203,What is the output of print(sum(i*i for i in range(7))),36,49,91,Error,21,91,91 is correct based on how this feature behaves in Python.
+204,What is the output of print(sum(i*i for i in range(4))),9,14,16,6,Error,14,14 is correct based on how this feature behaves in Python.
+205,What is the value of s=pythonista then print(s[3:6]),None of the above,python,on,honista,hon,hon,hon is correct based on how this feature behaves in Python.
+206,What is output of print(a * 0 or b),b,FALSE,0,None of the above,,b,b is correct based on how this feature behaves in Python.
+207,What is the value of s=pythonista then print(s[1:5]),None of the above,ython,tho,ytho,pytho,ytho,ytho is correct based on how this feature behaves in Python.
+208,What is the output of print(sum(i*i for i in range(6))),Error,55,25,None of the above,36,55,55 is correct based on how this feature behaves in Python.
+209,What is the value of s=pythonista then print(s[1:5]),pytho,ytho,ythonista,None of the above,tho,ytho,ytho is correct based on how this feature behaves in Python.
+210,What does contextlib.contextmanager do,Registers cleanup to run at interpreter shutdown only,Creates a thread safe lock automatically,Writes context logs to syslog,Turns a generator function into a context manager using yield to split setup and teardown,Provides async context management only,Turns a generator function into a context manager using yield to split setup and teardown,The decorator turns a generator into a context manager with setup before yield and cleanup after.
+211,Which description of asyncio.gather is accurate,Cancels all tasks on the first exception always,Blocks the event loop until all tasks finish via time sleep,Guarantees order of completion equals input order,Starts new processes for each task,Runs multiple awaitables concurrently and aggregates their results,Runs multiple awaitables concurrently and aggregates their results,gather runs many coroutines at once and returns all results together.
+212,What is the output of print(sum(i*i for i in range(4))),Error,9,None of the above,14,6,14,14 is correct based on how this feature behaves in Python.
+213,What does print((x:=len([1 2 3])) == 3 and x) output,FALSE,None,len list,3,None of the above,3,3 is correct based on how this feature behaves in Python.
+214,What is the output of print(sum(i*i for i in range(6))),25,36,55,Error,None of the above,55,55 is correct based on how this feature behaves in Python.
+215,What is the output of print(sum(i*i for i in range(6))),15,36,55,25,None of the above,55,55 is correct based on how this feature behaves in Python.
+216,What is the value of s=pythonista then print(s[3:8]),honista,honist,pythonis,honis,None of the above,honis,honis is correct based on how this feature behaves in Python.
+217,What is the output of print(sum(i*i for i in range(3))),4,5,None of the above,Error,9,5,5 is correct based on how this feature behaves in Python.
+218,What is the value of s=pythonista then print(s[1:6]),None of the above,thon,ythoni,python,ython,ython,ython is correct based on how this feature behaves in Python.
+219,What is the output of print(sum(i*i for i in range(4))),6,9,Error,None of the above,14,14,14 is correct based on how this feature behaves in Python.
+220,What is the output of print(sum(i*i for i in range(3))),9,5,3,4,None of the above,5,5 is correct based on how this feature behaves in Python.
+221,What does contextlib.contextmanager do,Creates a thread safe lock automatically,Turns a generator function into a context manager using yield to split setup and teardown,Writes context logs to syslog,Provides async context management only,Registers cleanup to run at interpreter shutdown only,Turns a generator function into a context manager using yield to split setup and teardown,The decorator turns a generator into a context manager with setup before yield and cleanup after.
+222,What is the output of print(sum(i*i for i in range(6))),25,None of the above,55,Error,15,55,55 is correct based on how this feature behaves in Python.
+223,What is the value of s=pythonista then print(s[1:3]),yt,pyt,ythonista,yth,None of the above,yt,yt is correct based on how this feature behaves in Python.
+224,What is the output of print(sum(i*i for i in range(6))),36,Error,None of the above,25,55,55,55 is correct based on how this feature behaves in Python.
+225,What is the output of print([i for i in range(3)] is [0 1 2]),[0 1 2],TRUE,Error,None of the above,FALSE,FALSE,False is correct based on how this feature behaves in Python.
+226,What is the output of print(sum(i*i for i in range(5))),10,Error,None of the above,25,30,30,Squares 0 1 4 9 16 add up to 30.
+227,What is the output of print({1 2 3} < {1 2 3 4}),Error,None of the above,[],TRUE,FALSE,TRUE,True is correct based on how this feature behaves in Python.
+228,What is the output of print(sum(i*i for i in range(6))),15,55,36,Error,None of the above,55,55 is correct based on how this feature behaves in Python.
+229,What is the output of print(sum(i*i for i in range(6))),15,36,None of the above,25,55,55,55 is correct based on how this feature behaves in Python.
+230,What does contextlib.contextmanager do,Writes context logs to syslog,Provides async context management only,Creates a thread safe lock automatically,Turns a generator function into a context manager using yield to split setup and teardown,Registers cleanup to run at interpreter shutdown only,Turns a generator function into a context manager using yield to split setup and teardown,The decorator turns a generator into a context manager with setup before yield and cleanup after.
+231,What is the value of s=pythonista then print(s[1:3]),pyt,ythonista,yt,t,yth,yt,yt is correct based on how this feature behaves in Python.
+232,What is the value of s=pythonista then print(s[3:6]),python,hon,on,honista,None of the above,hon,hon is correct based on how this feature behaves in Python.
+233,What is the output of print(sum(i*i for i in range(6))),55,Error,15,36,None of the above,55,55 is correct based on how this feature behaves in Python.
+234,What is the output of print(sum(i*i for i in range(4))),6,9,16,14,Error,14,14 is correct based on how this feature behaves in Python.
+235,What is the output of print(sum(i*i for i in range(3))),Error,4,None of the above,5,3,5,5 is correct based on how this feature behaves in Python.
+236,What is the output of print(sum(i*i for i in range(3))),Error,5,3,9,None of the above,5,5 is correct based on how this feature behaves in Python.
+237,What is output of print(bool(object())),None of the above,0,TRUE,None,Error,TRUE,Any object instance is truthy so bool is True.
+238,What is the output of print(sum(i*i for i in range(6))),55,None of the above,25,Error,36,55,55 is correct based on how this feature behaves in Python.
+239,What is the value of s=pythonista then print(s[1:6]),python,None of the above,ythonista,ython,ythoni,ython,ython is correct based on how this feature behaves in Python.
+240,What is the output of print(sum(i*i for i in range(3))),4,9,None of the above,Error,5,5,5 is correct based on how this feature behaves in Python.
+241,What is the output of print(sum(i*i for i in range(3))),None of the above,9,Error,5,3,5,5 is correct based on how this feature behaves in Python.
+242,What is the output of print(sum(i*i for i in range(4))),16,14,9,6,None of the above,14,14 is correct based on how this feature behaves in Python.
+243,What is the output of print(sum(i*i for i in range(6))),Error,15,36,55,25,55,55 is correct based on how this feature behaves in Python.
+244,What is the value of s=pythonista then print(s[3:8]),None of the above,honista,onis,honis,pythonis,honis,honis is correct based on how this feature behaves in Python.
+245,What is the value of s=pythonista then print(s[1:4]),ytho,pyth,ythonista,yth,th,yth,yth is correct based on how this feature behaves in Python.
+246,What does contextlib.contextmanager do,Creates a thread safe lock automatically,Registers cleanup to run at interpreter shutdown only,Writes context logs to syslog,Provides async context management only,Turns a generator function into a context manager using yield to split setup and teardown,Turns a generator function into a context manager using yield to split setup and teardown,The decorator turns a generator into a context manager with setup before yield and cleanup after.
+247,Which statement about descriptors is correct,Descriptors can only be used with metaclasses,Descriptors require slots to be enabled,Descriptors are only available in C extensions,A descriptor is an object that defines __get__ __set__ or __delete__ and controls attribute access,Descriptors work only on built in types,A descriptor is an object that defines __get__ __set__ or __delete__ and controls attribute access,Implementing __get__ __set__ or __delete__ lets an object control attribute access.
+248,Which method makes an object usable in a with statement,__iter__ and __next__,__enter__ and __exit__,__init__ and __del__,__aenter__ and __aexit__ only,__get__ and __set__,__enter__ and __exit__,with calls __enter__ on enter and __exit__ on exit to handle setup and cleanup.
+249,Which statement about float NaN is correct,None of the above,NaN compares greater than all numbers,NaN is not equal to itself by IEEE rules so x == x is False for NaN,NaN is equal to 0 0 by default,NaN sorts to the beginning in all Python sorts,NaN is not equal to itself by IEEE rules so x == x is False for NaN,NaN is special and never equals itself which is why equality tests fail.
+250,What is the value of s=pythonista then print(s[3:5]),ho,None of the above,o,hon,honista,ho,ho is correct based on how this feature behaves in Python.
+251,What is the output of print(sum(i*i for i in range(6))),Error,36,25,None of the above,55,55,55 is correct based on how this feature behaves in Python.
+252,Which statement about mutable default arguments is correct,Only dict defaults are shared lists are not,A list used as a default parameter is shared across calls which can cause surprising bugs,This happens only in Python 2 not Python 3,None of the above,Defaults are re evaluated on each call so this is safe,A list used as a default parameter is shared across calls which can cause surprising bugs,Default values are evaluated once at function definition so a list is shared across calls.
+253,What is the output of print(sum(i*i for i in range(3))),None of the above,9,Error,5,4,5,5 is correct based on how this feature behaves in Python.
+254,What is the output of print(sum(i*i for i in range(7))),49,Error,21,None of the above,91,91,91 is correct based on how this feature behaves in Python.
+255,In typing what does Protocol represent,A network protocol implementation,A runtime enforced interface,A final class that cannot be subclassed,A metaclass for ABCs,A structural type based on method signatures rather than concrete inheritance,A structural type based on method signatures rather than concrete inheritance,Protocol checks that a type has the right methods regardless of its base classes.
+256,What is output of print({}.setdefault(x [])),{},[x],None,[],KeyError,[],[] is correct based on how this feature behaves in Python.
+257,What is the value of s=pythonista then print(s[3:8]),pythonis,None of the above,honista,onis,honis,honis,honis is correct based on how this feature behaves in Python.
+258,What does itertools.groupby require to group equal keys correctly,The key function must return unique values,The values must be numbers,The input must be pre sorted by the same key function,The keys must be strings,The input must be a list not an iterator,The input must be pre sorted by the same key function,groupby only groups adjacent equal keys so you must sort first.
+259,What is the output of print(sum(i*i for i in range(6))),15,None of the above,55,Error,36,55,55 is correct based on how this feature behaves in Python.
+260,What is the value of s=pythonista then print(s[0:2]),pythonista,pyt,None of the above,py,y,py,py is correct based on how this feature behaves in Python.
+261,What is the output of print(sum(i*i for i in range(6))),36,None of the above,25,55,Error,55,55 is correct based on how this feature behaves in Python.
+262,What is the output of print(sum(i*i for i in range(3))),9,Error,None of the above,5,4,5,5 is correct based on how this feature behaves in Python.
+263,What is the value of s=pythonista then print(s[0:5]),None of the above,pytho,ytho,pythonista,python,pytho,pytho is correct based on how this feature behaves in Python.
+264,What is the output of print(sum(i*i for i in range(5))),30,Error,10,None of the above,25,30,Squares 0 1 4 9 16 add up to 30.
+265,What is the output of print(sum(i*i for i in range(3))),5,3,4,Error,None of the above,5,5 is correct based on how this feature behaves in Python.
+266,What is the value of s=pythonista then print(s[3:7]),honis,honi,honista,oni,None of the above,honi,honi is correct based on how this feature behaves in Python.
+267,Which description of asyncio.gather is accurate,None of the above,Blocks the event loop until all tasks finish via time sleep,Starts new processes for each task,Runs multiple awaitables concurrently and aggregates their results,Cancels all tasks on the first exception always,Runs multiple awaitables concurrently and aggregates their results,gather runs many coroutines at once and returns all results together.
+268,What is the output of print(sum(i*i for i in range(7))),36,21,91,49,None of the above,91,91 is correct based on how this feature behaves in Python.
+269,What is the output of print(sum(i*i for i in range(5))),30,Error,25,None of the above,16,30,Squares 0 1 4 9 16 add up to 30.
+270,What does print((x:=len([1 2 3])) == 3 and x) output,None,None of the above,len list,3,TRUE,3,3 is correct based on how this feature behaves in Python.
+271,In typing what does Protocol represent,A structural type based on method signatures rather than concrete inheritance,A final class that cannot be subclassed,A runtime enforced interface,A metaclass for ABCs,A network protocol implementation,A structural type based on method signatures rather than concrete inheritance,Protocol checks that a type has the right methods regardless of its base classes.
+272,What is the output of print(sum(i*i for i in range(4))),Error,14,None of the above,9,6,14,14 is correct based on how this feature behaves in Python.
+273,What does dataclass frozen True guarantee,Only __repr__ is generated not __init__,All nested objects also become immutable automatically,Hash is always disabled,Instances are immutable and fields cannot be reassigned,Only new fields cannot be added but existing fields can change,Instances are immutable and fields cannot be reassigned,frozen dataclasses prevent reassignment to fields making instances immutable.
+274,What is the value of s=pythonista then print(s[0:2]),pyt,None of the above,y,py,pythonista,py,py is correct based on how this feature behaves in Python.
+275,What does print((0 and 5) or 7) produce,7,5,None of the above,FALSE,TRUE,7,0 is falsy so or returns the right value 7.
+276,What is the output of print(sum(i*i for i in range(4))),Error,None of the above,14,16,9,14,14 is correct based on how this feature behaves in Python.
+277,What does print((x:=len([1 2 3])) == 3 and x) output,3,TRUE,None of the above,len list,FALSE,3,3 is correct based on how this feature behaves in Python.
+278,What does print(all([])) return,0,None,TRUE,None of the above,Error,TRUE,all of an empty iterable is True by definition vacuously true.
+279,What is the value of s=pythonista then print(s[1:4]),ythonista,None of the above,pyth,th,yth,yth,yth is correct based on how this feature behaves in Python.
+280,What is the output of print(sum(i*i for i in range(5))),16,10,30,Error,25,30,Squares 0 1 4 9 16 add up to 30.
+281,What is the value of s=pythonista then print(s[2:6]),thon,python,hon,thonista,thoni,thon,thon is correct based on how this feature behaves in Python.
+282,What is the output of print(sum(i*i for i in range(4))),6,16,14,Error,9,14,14 is correct based on how this feature behaves in Python.
+283,Which method makes an object usable in a with statement,__enter__ and __exit__,__get__ and __set__,__init__ and __del__,__iter__ and __next__,__aenter__ and __aexit__ only,__enter__ and __exit__,with calls __enter__ on enter and __exit__ on exit to handle setup and cleanup.
+284,What is the output of print(sum(i*i for i in range(7))),91,36,21,49,Error,91,91 is correct based on how this feature behaves in Python.
+285,What is the output of print(sum(i*i for i in range(6))),Error,36,55,15,None of the above,55,55 is correct based on how this feature behaves in Python.
+286,What is the output of print(sum(i*i for i in range(6))),55,25,None of the above,15,Error,55,55 is correct based on how this feature behaves in Python.
+287,What is the value of s=pythonista then print(s[1:6]),ython,ythoni,None of the above,thon,python,ython,ython is correct based on how this feature behaves in Python.
+288,What is a closure in Python,A function that closes files automatically,A class method bound to an instance,A lambda with no parameters,A function that captures variables from an enclosing scope even after that scope has finished,A function defined inside __init__ only,A function that captures variables from an enclosing scope even after that scope has finished,Closures remember variables from surrounding scope so they keep working after the scope ends.
+289,What is the output of print({1 2 3} < {1 2 3 4}),Error,None of the above,TRUE,[],0,TRUE,True is correct based on how this feature behaves in Python.
+290,What is the output of print(sum(i*i for i in range(5))),30,None of the above,25,16,Error,30,Squares 0 1 4 9 16 add up to 30.
+291,Which statement about float NaN is correct,NaN is not equal to itself by IEEE rules so x == x is False for NaN,NaN compares greater than all numbers,NaN is equal to 0 0 by default,NaN sorts to the beginning in all Python sorts,NaN is treated as None by min and max,NaN is not equal to itself by IEEE rules so x == x is False for NaN,NaN is special and never equals itself which is why equality tests fail.
+292,What is the value of s=pythonista then print(s[0:4]),None of the above,pytho,pyth,yth,pythonista,pyth,pyth is correct based on how this feature behaves in Python.
+293,What is the value of s=pythonista then print(s[2:6]),thoni,None of the above,python,hon,thon,thon,thon is correct based on how this feature behaves in Python.
+294,Which best describes __getattr__,None of the above,Called when attribute lookup fails allowing dynamic attribute handling,Called when deleting attributes,Called when setting attributes,Called only for private attributes starting with underscore,Called when attribute lookup fails allowing dynamic attribute handling,It fires only when normal lookup fails letting you supply attributes dynamically.
+295,What is the output of print({i:i*i for i in range(3)}[2]),2,Error,0,None of the above,4,4,Comprehension maps 2 to 4 so indexing by 2 returns 4.
+296,What is the value of s=pythonista then print(s[3:6]),on,None of the above,hon,python,honi,hon,hon is correct based on how this feature behaves in Python.
+297,What is the output of print({1 2 3} < {1 2 3 4}),None of the above,[],TRUE,FALSE,0,TRUE,True is correct based on how this feature behaves in Python.
+298,Which best describes the Global Interpreter Lock GIL,It disables asyncio,It allows only one thread to execute Python bytecode at a time per process,It blocks C extensions from running in parallel,It locks the entire operating system scheduler,It prevents subprocesses from spawning,It allows only one thread to execute Python bytecode at a time per process,The GIL lets only one thread run Python bytecode at once inside a process.
+299,Which statement about __slots__ is correct,__slots__ speeds up all attribute access always,__slots__ makes a class immutable,__slots__ is required for dataclasses,__slots__ can reduce memory by preventing instance dict creation,__slots__ enables multiple inheritance without MRO,__slots__ can reduce memory by preventing instance dict creation,Slots remove the per instance dict so instances can be smaller.
+300,What is the output of print(sum(i*i for i in range(4))),14,None of the above,6,9,16,14,14 is correct based on how this feature behaves in Python.
+301,What is the output of print(sum(i*i for i in range(6))),Error,15,55,36,None of the above,55,55 is correct based on how this feature behaves in Python.
+302,Which best describes the Global Interpreter Lock GIL,It locks the entire operating system scheduler,It prevents subprocesses from spawning,It allows only one thread to execute Python bytecode at a time per process,It disables asyncio,It blocks C extensions from running in parallel,It allows only one thread to execute Python bytecode at a time per process,The GIL lets only one thread run Python bytecode at once inside a process.
+303,What is the output of print(sum(i*i for i in range(3))),4,Error,5,9,None of the above,5,5 is correct based on how this feature behaves in Python.
+304,What is the output of print(sum(i*i for i in range(6))),25,55,36,Error,15,55,55 is correct based on how this feature behaves in Python.
+305,What is the output of print(sum(i*i for i in range(7))),91,36,None of the above,21,49,91,91 is correct based on how this feature behaves in Python.
+306,What does list({1: a  2: b}) evaluate to,[1  2],[(1 a) (2 b)],[2 1],[1 2],[a b],[1  2],[1  2] is correct based on how this feature behaves in Python.
+307,What is the value of s=pythonista then print(s[2:5]),None of the above,tho,thon,pytho,ho,tho,tho is correct based on how this feature behaves in Python.
+308,What is the output of print(sum(i*i for i in range(7))),36,91,49,None of the above,21,91,91 is correct based on how this feature behaves in Python.
+309,What is the value of s=pythonista then print(s[2:6]),python,thon,thoni,thonista,hon,thon,thon is correct based on how this feature behaves in Python.
+310,Which statement about mutable default arguments is correct,A list used as a default parameter is shared across calls which can cause surprising bugs,Defaults are re evaluated on each call so this is safe,The interpreter forbids using lists as defaults,This happens only in Python 2 not Python 3,Only dict defaults are shared lists are not,A list used as a default parameter is shared across calls which can cause surprising bugs,Default values are evaluated once at function definition so a list is shared across calls.
+311,What is the output of print(sum(i*i for i in range(3))),Error,5,9,3,None of the above,5,5 is correct based on how this feature behaves in Python.
+312,What is the output of print(sum(i*i for i in range(5))),None of the above,16,Error,30,25,30,Squares 0 1 4 9 16 add up to 30.
+313,What is the output of print(sum(i*i for i in range(6))),15,None of the above,25,Error,55,55,55 is correct based on how this feature behaves in Python.
+314,What does print(type(range(3)).__name__) output,list,iterator,range,None of the above,tuple,range,range objects have type name range.
+315,What is the value of s=pythonista then print(s[0:5]),python,pytho,ytho,None of the above,pythonista,pytho,pytho is correct based on how this feature behaves in Python.
+316,What is the output of print(sum(i*i for i in range(5))),16,None of the above,25,Error,30,30,Squares 0 1 4 9 16 add up to 30.
+317,What is structural pattern matching match case primarily used for,Replacing if else for arithmetic,Pattern matching only works with strings,Switching on integer constants only,Destructuring and matching data shapes like sequences mappings and classes,Dynamic type casting at runtime,Destructuring and matching data shapes like sequences mappings and classes,match case can unpack and test shapes of data not just values.
+318,What is the value of s=pythonista then print(s[0:2]),pythonista,pyt,None of the above,py,y,py,py is correct based on how this feature behaves in Python.
+319,What does print((1 2) < (1 3)) produce,None of the above,Error,TRUE,FALSE,0,TRUE,True is correct based on how this feature behaves in Python.
+320,What is a closure in Python,A function defined inside __init__ only,A function that captures variables from an enclosing scope even after that scope has finished,A class method bound to an instance,A function that closes files automatically,A lambda with no parameters,A function that captures variables from an enclosing scope even after that scope has finished,Closures remember variables from surrounding scope so they keep working after the scope ends.
+321,What is the value of s=pythonista then print(s[2:6]),thon,thonista,thoni,python,None of the above,thon,thon is correct based on how this feature behaves in Python.
+322,What is the output of print(sum(i*i for i in range(7))),36,91,21,Error,None of the above,91,91 is correct based on how this feature behaves in Python.
+323,What is the output of print(sum(i*i for i in range(3))),None of the above,4,5,9,3,5,5 is correct based on how this feature behaves in Python.
+324,What is the output of print(sum(i*i for i in range(7))),21,49,36,None of the above,91,91,91 is correct based on how this feature behaves in Python.
+325,What is the output of print(sum(i*i for i in range(4))),6,None of the above,9,16,14,14,14 is correct based on how this feature behaves in Python.
+326,What is the value of s=pythonista then print(s[0:2]),pyt,y,pythonista,None of the above,py,py,py is correct based on how this feature behaves in Python.
+327,What is the value of s=pythonista then print(s[3:6]),python,honista,None of the above,hon,honi,hon,hon is correct based on how this feature behaves in Python.
+328,What is the output of print(sum(i*i for i in range(4))),Error,14,6,9,16,14,14 is correct based on how this feature behaves in Python.
+329,What does print(type(range(3)).__name__) output,list,range,None of the above,iterator,generator,range,range objects have type name range.
+330,What is the output of print(sum(i*i for i in range(3))),None of the above,5,4,3,9,5,5 is correct based on how this feature behaves in Python.
+331,What is the output of print(sum(i*i for i in range(3))),9,Error,4,5,None of the above,5,5 is correct based on how this feature behaves in Python.
+332,What is the output of print(sum(i*i for i in range(4))),None of the above,Error,9,14,6,14,14 is correct based on how this feature behaves in Python.
+333,Which statement about mutable default arguments is correct,Only dict defaults are shared lists are not,Defaults are re evaluated on each call so this is safe,This happens only in Python 2 not Python 3,None of the above,A list used as a default parameter is shared across calls which can cause surprising bugs,A list used as a default parameter is shared across calls which can cause surprising bugs,Default values are evaluated once at function definition so a list is shared across calls.
+334,What is the output of print(sum(i*i for i in range(5))),30,Error,25,10,None of the above,30,Squares 0 1 4 9 16 add up to 30.
+335,What is a closure in Python,A function that captures variables from an enclosing scope even after that scope has finished,A class method bound to an instance,A lambda with no parameters,A function defined inside __init__ only,None of the above,A function that captures variables from an enclosing scope even after that scope has finished,Closures remember variables from surrounding scope so they keep working after the scope ends.
+336,What is the value of s=pythonista then print(s[0:2]),y,py,pythonista,None of the above,pyt,py,py is correct based on how this feature behaves in Python.
+337,What does dataclass frozen True guarantee,Only __repr__ is generated not __init__,Instances are immutable and fields cannot be reassigned,All nested objects also become immutable automatically,Only new fields cannot be added but existing fields can change,None of the above,Instances are immutable and fields cannot be reassigned,frozen dataclasses prevent reassignment to fields making instances immutable.
+338,What is the output of print(sum(i*i for i in range(6))),25,15,55,Error,36,55,55 is correct based on how this feature behaves in Python.
+339,What is the output of print({i:i*i for i in range(3)}[2]),3,Error,2,4,None of the above,4,Comprehension maps 2 to 4 so indexing by 2 returns 4.
+340,Which built in is most appropriate for a stable sort with a custom key,heapq.nsmallest for all elements,list.sort without key,bisect.insort for unsorted lists,reversed then sort,sorted with the key parameter,sorted with the key parameter,sorted with key keeps equal keys in input order and uses the key for comparisons.
+341,What is the output of print(sum(i*i for i in range(6))),Error,None of the above,36,15,55,55,55 is correct based on how this feature behaves in Python.
+342,What is the output of print(sum(i*i for i in range(4))),None of the above,14,16,Error,9,14,14 is correct based on how this feature behaves in Python.
+343,What is the value of s=pythonista then print(s[2:7]),thoni,thonis,honi,None of the above,pythoni,thoni,thoni is correct based on how this feature behaves in Python.
+344,What is the value of s=pythonista then print(s[2:5]),tho,None of the above,ho,pytho,thon,tho,tho is correct based on how this feature behaves in Python.
+345,What does contextlib.contextmanager do,Registers cleanup to run at interpreter shutdown only,Turns a generator function into a context manager using yield to split setup and teardown,None of the above,Creates a thread safe lock automatically,Provides async context management only,Turns a generator function into a context manager using yield to split setup and teardown,The decorator turns a generator into a context manager with setup before yield and cleanup after.
+346,What is the output of print(sum(i*i for i in range(4))),None of the above,6,Error,14,9,14,14 is correct based on how this feature behaves in Python.
+347,What is the output of print(sum(i*i for i in range(7))),Error,49,36,91,21,91,91 is correct based on how this feature behaves in Python.
+348,What is the output of print(sum(i*i for i in range(6))),25,None of the above,55,15,Error,55,55 is correct based on how this feature behaves in Python.
+349,What is the output of print(sum(i*i for i in range(4))),9,Error,14,16,None of the above,14,14 is correct based on how this feature behaves in Python.
+350,What is the output of print(sum(i*i for i in range(6))),Error,55,15,None of the above,36,55,55 is correct based on how this feature behaves in Python.
+351,What is output of print(a * 0 or b),,FALSE,None of the above,a,b,b,b is correct based on how this feature behaves in Python.
+352,What does print(all([])) return,0,None of the above,None,TRUE,Error,TRUE,all of an empty iterable is True by definition vacuously true.
+353,What is the output of print({a:1}.get(b) is None),KeyError,0,None of the above,FALSE,TRUE,TRUE,True is correct based on how this feature behaves in Python.
+354,What is the output of print(sum(i*i for i in range(5))),None of the above,16,25,Error,30,30,Squares 0 1 4 9 16 add up to 30.
+355,What is output of print(bool(object())),0,FALSE,None of the above,TRUE,None,TRUE,Any object instance is truthy so bool is True.
+356,What does dataclass frozen True guarantee,Only new fields cannot be added but existing fields can change,Instances are immutable and fields cannot be reassigned,All nested objects also become immutable automatically,Only __repr__ is generated not __init__,None of the above,Instances are immutable and fields cannot be reassigned,frozen dataclasses prevent reassignment to fields making instances immutable.
+357,What is the value of s=pythonista then print(s[1:5]),pytho,ythonista,None of the above,ytho,tho,ytho,ytho is correct based on how this feature behaves in Python.
+358,What is the output of print(sum(i*i for i in range(5))),10,30,Error,16,25,30,Squares 0 1 4 9 16 add up to 30.
+359,What is the result of s=abba; print(s.replace(b bb 1)),abbba,abbaa,a bb a,None of the above,abba,abbba,replace with count 1 replaces only the first match so one b becomes bb.
+360,What is the output of print(tuple(map(lambda x:x+1 (1 2)))),[2 3],(2 3 4),(2  3),None of the above,(1 2 3),(2  3),(2  3) is correct based on how this feature behaves in Python.
+361,What is the output of print(sum(i*i for i in range(5))),30,25,Error,None of the above,16,30,Squares 0 1 4 9 16 add up to 30.
+362,Which statement about mutable default arguments is correct,Defaults are re evaluated on each call so this is safe,This happens only in Python 2 not Python 3,Only dict defaults are shared lists are not,The interpreter forbids using lists as defaults,A list used as a default parameter is shared across calls which can cause surprising bugs,A list used as a default parameter is shared across calls which can cause surprising bugs,Default values are evaluated once at function definition so a list is shared across calls.
+363,What is the output of print(sum(i*i for i in range(3))),Error,4,9,3,5,5,5 is correct based on how this feature behaves in Python.
+364,What is the value of s=pythonista then print(s[1:5]),ython,tho,ythonista,ytho,pytho,ytho,ytho is correct based on how this feature behaves in Python.
+365,What is the output of print(sum(i*i for i in range(6))),15,55,25,36,Error,55,55 is correct based on how this feature behaves in Python.
+366,What is the value of s=pythonista then print(s[1:4]),th,ytho,ythonista,None of the above,yth,yth,yth is correct based on how this feature behaves in Python.
+367,In typing what does Protocol represent,A final class that cannot be subclassed,A runtime enforced interface,A structural type based on method signatures rather than concrete inheritance,A network protocol implementation,A metaclass for ABCs,A structural type based on method signatures rather than concrete inheritance,Protocol checks that a type has the right methods regardless of its base classes.
+368,What does print((1 2) < (1 3)) produce,TRUE,Error,None of the above,None,0,TRUE,True is correct based on how this feature behaves in Python.
+369,What is the value of s=pythonista then print(s[1:5]),ythonista,tho,ython,None of the above,ytho,ytho,ytho is correct based on how this feature behaves in Python.
+370,What is the value of s=pythonista then print(s[3:5]),hon,ho,None of the above,o,honista,ho,ho is correct based on how this feature behaves in Python.
+371,What is the value of s=pythonista then print(s[1:6]),ythoni,ython,thon,ythonista,python,ython,ython is correct based on how this feature behaves in Python.
+372,What does print((0 and 5) or 7) produce,7,None of the above,TRUE,0,5,7,0 is falsy so or returns the right value 7.
+373,What is the value of s=pythonista then print(s[2:6]),None of the above,thonista,thon,python,hon,thon,thon is correct based on how this feature behaves in Python.
+374,What is the value of s=pythonista then print(s[0:4]),pytho,None of the above,yth,pythonista,pyth,pyth,pyth is correct based on how this feature behaves in Python.
+375,What is the output of print(sum(i*i for i in range(5))),30,10,None of the above,16,25,30,Squares 0 1 4 9 16 add up to 30.
+376,What is the output of print(sum(i*i for i in range(4))),Error,9,14,16,None of the above,14,14 is correct based on how this feature behaves in Python.
+377,What is the value of s=pythonista then print(s[3:5]),hon,ho,None of the above,honista,o,ho,ho is correct based on how this feature behaves in Python.
+378,What is the value of s=pythonista then print(s[0:4]),pythonista,None of the above,pyth,pytho,yth,pyth,pyth is correct based on how this feature behaves in Python.
+379,Which method makes an object usable in a with statement,__iter__ and __next__,__enter__ and __exit__,__aenter__ and __aexit__ only,__get__ and __set__,__init__ and __del__,__enter__ and __exit__,with calls __enter__ on enter and __exit__ on exit to handle setup and cleanup.
+380,What is the value of s=pythonista then print(s[3:5]),o,hon,honista,None of the above,ho,ho,ho is correct based on how this feature behaves in Python.
+381,What is the value of s=pythonista then print(s[1:6]),ython,ythonista,thon,python,None of the above,ython,ython is correct based on how this feature behaves in Python.
+382,What is the output of print(sum(i*i for i in range(7))),None of the above,49,21,91,36,91,91 is correct based on how this feature behaves in Python.
+383,What is the value of s=pythonista then print(s[3:6]),python,None of the above,hon,honi,on,hon,hon is correct based on how this feature behaves in Python.
+384,What is the value of s=pythonista then print(s[1:6]),ython,thon,ythoni,python,None of the above,ython,ython is correct based on how this feature behaves in Python.
+385,What is the output of print(sum(i*i for i in range(6))),55,36,Error,None of the above,25,55,55 is correct based on how this feature behaves in Python.
+386,Which built in is most appropriate for a stable sort with a custom key,bisect.insort for unsorted lists,list.sort without key,sorted with the key parameter,reversed then sort,heapq.nsmallest for all elements,sorted with the key parameter,sorted with key keeps equal keys in input order and uses the key for comparisons.
+387,What is the output of print(sum(i*i for i in range(3))),5,9,None of the above,4,3,5,5 is correct based on how this feature behaves in Python.
+388,What is the output of print(sum(i*i for i in range(7))),49,Error,91,21,36,91,91 is correct based on how this feature behaves in Python.
+389,What is structural pattern matching match case primarily used for,Replacing if else for arithmetic,Switching on integer constants only,Destructuring and matching data shapes like sequences mappings and classes,Pattern matching only works with strings,Dynamic type casting at runtime,Destructuring and matching data shapes like sequences mappings and classes,match case can unpack and test shapes of data not just values.
+390,What does functools.lru_cache do,Parallelizes the function across threads,Converts a function into a generator,Caches function results keyed by arguments to avoid recomputation,Stores results only for keyword arguments,Validates argument types at runtime,Caches function results keyed by arguments to avoid recomputation,lru_cache remembers results for argument combinations so repeats are instant.
+391,What is the output of print(sum(i*i for i in range(4))),9,None of the above,Error,6,14,14,14 is correct based on how this feature behaves in Python.
+392,What is the output of print(sum(i*i for i in range(6))),None of the above,25,36,55,15,55,55 is correct based on how this feature behaves in Python.
+393,What is the value of s=pythonista then print(s[3:8]),pythonis,honis,None of the above,honista,honist,honis,honis is correct based on how this feature behaves in Python.
+394,What is the output of print(sum(i*i for i in range(3))),5,4,None of the above,9,Error,5,5 is correct based on how this feature behaves in Python.
+395,What is the output of print(sum(i*i for i in range(7))),21,Error,49,None of the above,91,91,91 is correct based on how this feature behaves in Python.
+396,Which statement about list vs deque is accurate,deque provides faster appends and pops from both ends while list is fast at random access,list is always faster than deque for all operations,deque supports O1 random indexing,deque cannot be iterated,list has O1 inserts at the front,deque provides faster appends and pops from both ends while list is fast at random access,deque shines at both ends push and pop while list is better at random indexing.
+397,What is the value of s=pythonista then print(s[0:4]),pyth,pythonista,pytho,None of the above,yth,pyth,pyth is correct based on how this feature behaves in Python.
+398,What is the value of s=pythonista then print(s[3:8]),pythonis,honista,None of the above,honis,onis,honis,honis is correct based on how this feature behaves in Python.
+399,What does the walrus operator do,It declares a type hint,It performs integer division,It assigns and returns a value inside an expression,It defines a lambda,It creates a context manager,It assigns and returns a value inside an expression,Walrus operator lets you assign a value as part of an expression.
+400,Which statement about list vs deque is accurate,list has O1 inserts at the front,deque cannot be iterated,deque supports O1 random indexing,deque provides faster appends and pops from both ends while list is fast at random access,list is always faster than deque for all operations,deque provides faster appends and pops from both ends while list is fast at random access,deque shines at both ends push and pop while list is better at random indexing.
+401,What is the output of print(sum(i*i for i in range(5))),25,10,None of the above,30,Error,30,Squares 0 1 4 9 16 add up to 30.
+402,What is the value of s=pythonista then print(s[3:8]),honis,None of the above,pythonis,onis,honista,honis,honis is correct based on how this feature behaves in Python.
+403,What is the value of s=pythonista then print(s[2:5]),None of the above,thonista,thon,pytho,tho,tho,tho is correct based on how this feature behaves in Python.
+404,What is the output of print(sum(i*i for i in range(4))),16,9,14,Error,None of the above,14,14 is correct based on how this feature behaves in Python.
+405,What is the output of print({i:i*i for i in range(3)}[2]),0,Error,3,4,2,4,Comprehension maps 2 to 4 so indexing by 2 returns 4.
+406,What is the value of s=pythonista then print(s[1:3]),ythonista,yt,pyt,t,None of the above,yt,yt is correct based on how this feature behaves in Python.
+407,What is the output of print(-3//2),-2,2,None of the above,0,-1,-2,Floor division rounds toward negative infinity so result is -2.
+408,What is the output of print(sum(i*i for i in range(4))),14,None of the above,6,16,Error,14,14 is correct based on how this feature behaves in Python.
+409,Which statement about list vs deque is accurate,list is always faster than deque for all operations,deque cannot be iterated,list has O1 inserts at the front,deque supports O1 random indexing,deque provides faster appends and pops from both ends while list is fast at random access,deque provides faster appends and pops from both ends while list is fast at random access,deque shines at both ends push and pop while list is better at random indexing.
+410,What is the value of s=pythonista then print(s[3:8]),honist,honis,onis,honista,pythonis,honis,honis is correct based on how this feature behaves in Python.
+411,What is the value of s=pythonista then print(s[2:6]),thoni,thonista,hon,python,thon,thon,thon is correct based on how this feature behaves in Python.
+412,What is the value of s=pythonista then print(s[0:3]),pythonista,yt,pyth,None of the above,pyt,pyt,pyt is correct based on how this feature behaves in Python.
+413,What does print((0 and 5) or 7) produce,FALSE,7,5,None of the above,0,7,0 is falsy so or returns the right value 7.
+414,What is the output of print(sum(i*i for i in range(3))),9,5,3,None of the above,Error,5,5 is correct based on how this feature behaves in Python.
+415,What is the result of s=abba; print(s.replace(b bb 1)),None of the above,abbba,abbaa,abbbba,abba,abbba,replace with count 1 replaces only the first match so one b becomes bb.
+416,What is the value of s=pythonista then print(s[1:4]),None of the above,pyth,yth,ytho,th,yth,yth is correct based on how this feature behaves in Python.
+417,What is the output of print(sum(i*i for i in range(3))),9,None of the above,5,3,4,5,5 is correct based on how this feature behaves in Python.
+418,What is the output of print(sum(i*i for i in range(5))),30,25,10,Error,16,30,Squares 0 1 4 9 16 add up to 30.
+419,What is the output of print(sum(i*i for i in range(5))),None of the above,Error,10,30,16,30,Squares 0 1 4 9 16 add up to 30.
+420,What is the value of s=pythonista then print(s[2:5]),thonista,thon,tho,ho,pytho,tho,tho is correct based on how this feature behaves in Python.
+421,What is the output of print(sum(i*i for i in range(6))),25,36,None of the above,Error,55,55,55 is correct based on how this feature behaves in Python.
+422,What is the value of s=pythonista then print(s[2:6]),python,thoni,thonista,thon,None of the above,thon,thon is correct based on how this feature behaves in Python.
+423,What is the value of s=pythonista then print(s[2:6]),python,None of the above,thon,thoni,hon,thon,thon is correct based on how this feature behaves in Python.
+424,Which description of asyncio.gather is accurate,Blocks the event loop until all tasks finish via time sleep,Guarantees order of completion equals input order,Cancels all tasks on the first exception always,Runs multiple awaitables concurrently and aggregates their results,Starts new processes for each task,Runs multiple awaitables concurrently and aggregates their results,gather runs many coroutines at once and returns all results together.
+425,What is the value of s=pythonista then print(s[0:4]),pytho,pythonista,pyth,None of the above,yth,pyth,pyth is correct based on how this feature behaves in Python.
+426,What is output of print(bool(object())),0,FALSE,None of the above,TRUE,None,TRUE,Any object instance is truthy so bool is True.
+427,What is the output of print(sum(i*i for i in range(6))),15,None of the above,55,25,Error,55,55 is correct based on how this feature behaves in Python.
+428,What does bisect.insort do,Builds a heap from a list,Removes duplicates from a list,Sorts a list in place using mergesort,Inserts an item into a sorted list keeping it sorted,Performs a binary search returning an index only,Inserts an item into a sorted list keeping it sorted,insort inserts while keeping the list sorted using binary search.
+429,What is the value of s=pythonista then print(s[3:5]),None of the above,o,pytho,hon,ho,ho,ho is correct based on how this feature behaves in Python.
+430,What is the output of print(sum(i*i for i in range(4))),6,14,16,9,Error,14,14 is correct based on how this feature behaves in Python.
+431,Which best describes __getattr__,None of the above,Called when attribute lookup fails allowing dynamic attribute handling,Called for every attribute access always,Called only for private attributes starting with underscore,Called when deleting attributes,Called when attribute lookup fails allowing dynamic attribute handling,It fires only when normal lookup fails letting you supply attributes dynamically.
+432,Which statement about decorators is accurate,A decorator always speeds up function execution,A decorator must be a class not a function,A decorator changes the function name at runtime in CPython,A decorator can only be applied to async functions,A decorator wraps a function to modify behavior without changing the function code,A decorator wraps a function to modify behavior without changing the function code,A decorator takes a function and returns a new callable that adds behavior around it.
+433,What is the value of s=pythonista then print(s[2:6]),hon,python,thoni,None of the above,thon,thon,thon is correct based on how this feature behaves in Python.
+434,Which statement about float NaN is correct,NaN is treated as None by min and max,NaN is equal to 0 0 by default,NaN is not equal to itself by IEEE rules so x == x is False for NaN,NaN compares greater than all numbers,NaN sorts to the beginning in all Python sorts,NaN is not equal to itself by IEEE rules so x == x is False for NaN,NaN is special and never equals itself which is why equality tests fail.
+435,What is the output of print(sum(i*i for i in range(7))),21,49,91,36,None of the above,91,91 is correct based on how this feature behaves in Python.
+436,What is the output of print({i:i*i for i in range(3)}[2]),3,2,4,None of the above,0,4,Comprehension maps 2 to 4 so indexing by 2 returns 4.
+437,What is the value of s=pythonista then print(s[1:6]),python,ythoni,ython,None of the above,ythonista,ython,ython is correct based on how this feature behaves in Python.
+438,What does functools.lru_cache do,Stores results only for keyword arguments,Parallelizes the function across threads,Validates argument types at runtime,Converts a function into a generator,Caches function results keyed by arguments to avoid recomputation,Caches function results keyed by arguments to avoid recomputation,lru_cache remembers results for argument combinations so repeats are instant.
+439,What is the value of s=pythonista then print(s[0:4]),pythonista,yth,pytho,pyth,None of the above,pyth,pyth is correct based on how this feature behaves in Python.
+440,What does bisect.insort do,Inserts an item into a sorted list keeping it sorted,Builds a heap from a list,Performs a binary search returning an index only,Sorts a list in place using mergesort,Removes duplicates from a list,Inserts an item into a sorted list keeping it sorted,insort inserts while keeping the list sorted using binary search.
+441,What does print((0 and 5) or 7) produce,5,0,FALSE,7,TRUE,7,0 is falsy so or returns the right value 7.
+442,What is the output of print(sum(i*i for i in range(4))),16,14,None of the above,9,Error,14,14 is correct based on how this feature behaves in Python.
+443,What is the output of print(sum(i*i for i in range(7))),Error,49,91,36,None of the above,91,91 is correct based on how this feature behaves in Python.
+444,What is the value of s=pythonista then print(s[3:7]),honis,oni,pythoni,honi,honista,honi,honi is correct based on how this feature behaves in Python.
+445,What is output of print({}.setdefault(x [])),{},None of the above,[],KeyError,None,[],[] is correct based on how this feature behaves in Python.
+446,What is the output of print(sum(i*i for i in range(7))),21,Error,49,36,91,91,91 is correct based on how this feature behaves in Python.
+447,What is the result of print(dict.fromkeys(aba 0)),{a: 0  b: 0},None of the above,{a:0 b:0 a:0},{b:0},{a: 0},{a: 0  b: 0},{a: 0  b: 0} is correct based on how this feature behaves in Python.
+448,What is the value of s=pythonista then print(s[0:3]),pythonista,None of the above,pyth,pyt,yt,pyt,pyt is correct based on how this feature behaves in Python.
+449,What is the output of print(sum(i*i for i in range(4))),14,None of the above,Error,9,16,14,14 is correct based on how this feature behaves in Python.
+450,Which statement about __slots__ is correct,__slots__ speeds up all attribute access always,__slots__ can reduce memory by preventing instance dict creation,__slots__ enables multiple inheritance without MRO,__slots__ is required for dataclasses,__slots__ makes a class immutable,__slots__ can reduce memory by preventing instance dict creation,Slots remove the per instance dict so instances can be smaller.
+451,What is the output of print(-3//2),None of the above,0,-2,1,-1,-2,Floor division rounds toward negative infinity so result is -2.
+452,What is the output of print({a:1}.get(b) is None),None of the above,TRUE,KeyError,FALSE,None,TRUE,True is correct based on how this feature behaves in Python.
+453,What is the output of print(sum(i*i for i in range(5))),10,16,25,Error,30,30,Squares 0 1 4 9 16 add up to 30.
+454,What does print(type(range(3)).__name__) output,range,None of the above,tuple,iterator,generator,range,range objects have type name range.
+455,What is the result of s=abba; print(s.replace(b bb 1)),abba,abbaa,abbba,None of the above,a bb a,abbba,replace with count 1 replaces only the first match so one b becomes bb.
+456,What is the value of s=pythonista then print(s[3:8]),honista,pythonis,honist,honis,onis,honis,honis is correct based on how this feature behaves in Python.
+457,What is the value of s=pythonista then print(s[2:7]),thonis,honi,thonista,pythoni,thoni,thoni,thoni is correct based on how this feature behaves in Python.
+458,What is the output of print(sum(i*i for i in range(6))),Error,25,55,36,15,55,55 is correct based on how this feature behaves in Python.
+459,Which description of asyncio.gather is accurate,Cancels all tasks on the first exception always,Blocks the event loop until all tasks finish via time sleep,Runs multiple awaitables concurrently and aggregates their results,Guarantees order of completion equals input order,Starts new processes for each task,Runs multiple awaitables concurrently and aggregates their results,gather runs many coroutines at once and returns all results together.
+460,What does the walrus operator do,It creates a context manager,It assigns and returns a value inside an expression,It defines a lambda,It performs integer division,It declares a type hint,It assigns and returns a value inside an expression,Walrus operator lets you assign a value as part of an expression.
+461,What is the result of print(dict.fromkeys(aba 0)),{b:0},{a: 0  b: 0},None of the above,{a:0 b:0 c:0},{a:0 b:0 a:0},{a: 0  b: 0},{a: 0  b: 0} is correct based on how this feature behaves in Python.
+462,What is the value of s=pythonista then print(s[3:5]),honista,hon,ho,o,None of the above,ho,ho is correct based on how this feature behaves in Python.
+463,Which best describes the Global Interpreter Lock GIL,It blocks C extensions from running in parallel,It disables asyncio,It allows only one thread to execute Python bytecode at a time per process,It locks the entire operating system scheduler,It prevents subprocesses from spawning,It allows only one thread to execute Python bytecode at a time per process,The GIL lets only one thread run Python bytecode at once inside a process.
+464,What is the value of s=pythonista then print(s[3:8]),honis,onis,honista,None of the above,honist,honis,honis is correct based on how this feature behaves in Python.
+465,What is the value of s=pythonista then print(s[3:8]),onis,None of the above,honist,pythonis,honis,honis,honis is correct based on how this feature behaves in Python.
+466,What is the value of s=pythonista then print(s[1:3]),None of the above,ythonista,t,yt,pyt,yt,yt is correct based on how this feature behaves in Python.
+467,Which statement about __slots__ is correct,__slots__ is required for dataclasses,__slots__ speeds up all attribute access always,__slots__ can reduce memory by preventing instance dict creation,__slots__ enables multiple inheritance without MRO,__slots__ makes a class immutable,__slots__ can reduce memory by preventing instance dict creation,Slots remove the per instance dict so instances can be smaller.
+468,What is the value of s=pythonista then print(s[1:6]),python,ython,ythonista,None of the above,ythoni,ython,ython is correct based on how this feature behaves in Python.
+469,What is the value of s=pythonista then print(s[2:4]),None of the above,tho,th,h,pyth,th,th is correct based on how this feature behaves in Python.
+470,What is the value of s=pythonista then print(s[1:4]),None of the above,yth,pyth,ythonista,ytho,yth,yth is correct based on how this feature behaves in Python.
+471,What does print((x:=len([1 2 3])) == 3 and x) output,None of the above,len list,3,None,FALSE,3,3 is correct based on how this feature behaves in Python.
+472,What is the value of s=pythonista then print(s[1:4]),ythonista,pyth,th,yth,ytho,yth,yth is correct based on how this feature behaves in Python.
+473,What does print(all([])) return,None,Error,TRUE,0,None of the above,TRUE,all of an empty iterable is True by definition vacuously true.
+474,What is the output of print(sum(i*i for i in range(7))),Error,21,91,49,36,91,91 is correct based on how this feature behaves in Python.
+475,What is the output of print(sum(i*i for i in range(3))),4,None of the above,9,5,Error,5,5 is correct based on how this feature behaves in Python.
+476,What is the output of print(tuple(map(lambda x:x+1 (1 2)))),[2 3],(1 2 3),(2 3 4),(1 3),(2  3),(2  3),(2  3) is correct based on how this feature behaves in Python.
+477,What does print((x:=len([1 2 3])) == 3 and x) output,None,3,None of the above,FALSE,len list,3,3 is correct based on how this feature behaves in Python.
+478,What is the output of print(sum(i*i for i in range(6))),25,Error,None of the above,55,36,55,55 is correct based on how this feature behaves in Python.
+479,What is the output of print(sum(i*i for i in range(4))),14,9,Error,16,None of the above,14,14 is correct based on how this feature behaves in Python.
+480,Which statement about mutable default arguments is correct,A list used as a default parameter is shared across calls which can cause surprising bugs,The interpreter forbids using lists as defaults,Defaults are re evaluated on each call so this is safe,Only dict defaults are shared lists are not,This happens only in Python 2 not Python 3,A list used as a default parameter is shared across calls which can cause surprising bugs,Default values are evaluated once at function definition so a list is shared across calls.
+481,What is the output of print(sum(i*i for i in range(7))),91,21,36,Error,None of the above,91,91 is correct based on how this feature behaves in Python.
+482,What is the value of s=pythonista then print(s[0:4]),pythonista,None of the above,pytho,pyth,yth,pyth,pyth is correct based on how this feature behaves in Python.
+483,What is the output of print({a:1}.get(b) is None),None,0,TRUE,KeyError,None of the above,TRUE,True is correct based on how this feature behaves in Python.
+484,Which statement about descriptors is correct,Descriptors can only be used with metaclasses,Descriptors work only on built in types,Descriptors require slots to be enabled,Descriptors are only available in C extensions,A descriptor is an object that defines __get__ __set__ or __delete__ and controls attribute access,A descriptor is an object that defines __get__ __set__ or __delete__ and controls attribute access,Implementing __get__ __set__ or __delete__ lets an object control attribute access.
+485,Which statement about descriptors is correct,Descriptors are only available in C extensions,Descriptors can only be used with metaclasses,A descriptor is an object that defines __get__ __set__ or __delete__ and controls attribute access,None of the above,Descriptors work only on built in types,A descriptor is an object that defines __get__ __set__ or __delete__ and controls attribute access,Implementing __get__ __set__ or __delete__ lets an object control attribute access.
+486,Which statement about descriptors is correct,Descriptors can only be used with metaclasses,Descriptors work only on built in types,Descriptors are only available in C extensions,Descriptors require slots to be enabled,A descriptor is an object that defines __get__ __set__ or __delete__ and controls attribute access,A descriptor is an object that defines __get__ __set__ or __delete__ and controls attribute access,Implementing __get__ __set__ or __delete__ lets an object control attribute access.
+487,What is the value of s=pythonista then print(s[2:5]),thon,thonista,tho,None of the above,pytho,tho,tho is correct based on how this feature behaves in Python.
+488,What does print((0 and 5) or 7) produce,FALSE,0,None of the above,5,7,7,0 is falsy so or returns the right value 7.
+489,What is the output of print(sum(i*i for i in range(7))),91,Error,49,21,None of the above,91,91 is correct based on how this feature behaves in Python.
+490,What is the output of print(sum(i*i for i in range(5))),30,None of the above,16,Error,25,30,Squares 0 1 4 9 16 add up to 30.
+491,Which method makes an object usable in a with statement,None of the above,__init__ and __del__,__enter__ and __exit__,__aenter__ and __aexit__ only,__get__ and __set__,__enter__ and __exit__,with calls __enter__ on enter and __exit__ on exit to handle setup and cleanup.
+492,What is the output of print(sum(i*i for i in range(7))),36,91,Error,None of the above,49,91,91 is correct based on how this feature behaves in Python.
+493,What is the value of s=pythonista then print(s[3:7]),honis,pythoni,honi,None of the above,oni,honi,honi is correct based on how this feature behaves in Python.
+494,What is the output of print(sum(i*i for i in range(4))),None of the above,Error,14,9,16,14,14 is correct based on how this feature behaves in Python.
+495,What is the output of print(sum(i*i for i in range(5))),10,16,25,30,None of the above,30,Squares 0 1 4 9 16 add up to 30.
+496,What is a closure in Python,A lambda with no parameters,A class method bound to an instance,A function that closes files automatically,A function that captures variables from an enclosing scope even after that scope has finished,A function defined inside __init__ only,A function that captures variables from an enclosing scope even after that scope has finished,Closures remember variables from surrounding scope so they keep working after the scope ends.
+497,What is the value of s=pythonista then print(s[0:2]),None of the above,y,pythonista,pyt,py,py,py is correct based on how this feature behaves in Python.
+498,What is the value of s=pythonista then print(s[0:4]),yth,pyth,pythonista,pytho,None of the above,pyth,pyth is correct based on how this feature behaves in Python.
+499,What is the value of s=pythonista then print(s[1:6]),ython,python,thon,ythoni,ythonista,ython,ython is correct based on how this feature behaves in Python.
+500,What does the walrus operator do,It creates a context manager,It performs integer division,It assigns and returns a value inside an expression,It declares a type hint,It defines a lambda,It assigns and returns a value inside an expression,Walrus operator lets you assign a value as part of an expression.
