@@ -125,6 +125,9 @@ Available commands:
   --list-commands, -lc   : List available commands and exit
 ```
 
+### Code Example
+
+A short demo showcasing all features of the emojiguessr package can be found here: https://github.com/swe-students-fall2025/3-python-package-team_saffron/blob/main/src/examples/demo.py
 
 
 ## Develop and Contribute
