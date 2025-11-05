@@ -88,3 +88,41 @@ class Tests:
                 assert (
                     len(actual) == i
                 ), f"Expected random_emojis({i}, theme='{theme}') to return {i} emojis. Instead, it returned {len(actual)} emojis."
+
+
+
+
+
+    def test_get_theme_item_default(self):
+        """
+        Verify get_theme_item() function with default parameters
+        """
+
+        food_actual = data._EMOJI_BANK["food"]
+        actual = data.get_theme_item()
+        assert (
+            actual in food_actual
+        ), f"Expected get_theme_item() to return an item from the food theme. Instead, it returned {actual}."
+
+    def test_get_theme_item_invalid(self):
+        """
+        Verify get_theme_item() function with invalid theme
+        """
+
+        food_actual = data._EMOJI_BANK["food"]
+        actual = data.get_theme_item("invalid")
+        assert (
+            actual in food_actual
+        ), f"Expected get_theme_item() to return an item from the food theme. Instead, it returned {actual}."
+
+    def test_get_theme_item_all(self):
+        """
+        Verify get_theme_item() function works for all themes
+        """
+
+        for theme in data._EMOJI_BANK:
+            theme_actual = data._EMOJI_BANK[theme]
+            actual = data.get_theme_item(theme)
+            assert (
+                actual in theme_actual
+            ) , f"Expected get_theme_item('{theme}') to return an item from the {theme} theme. Instead, it returned {actual}."
