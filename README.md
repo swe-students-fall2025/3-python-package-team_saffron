@@ -23,9 +23,9 @@ EmojiGuessr is a Python package that turns emoji strings into quick guessing gam
 
 [Leon Lian](https://github.com/ll5373128)
 
-member4
+[Khushboo Agrawal](https://github.com/KhushbooAgrawal190803)
 
-member5
+[Mya Pyke](https://github.com/myapyke123)
 
 ## Installation
 
