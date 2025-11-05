@@ -1,0 +1,501 @@
+Card ID,Flashcard
+1,"In Python, everything is an object - even numbers and functions!"
+2,"Indentation defines structure in Python - forget braces, spacing matters."
+3,Variables don't need types declared - Python figures them out automatically.
+4,Strings can use single or double quotes - consistency matters more than choice.
+5,Use '#' to add a comment - it's ignored by Python but loved by humans.
+6,"Python reads top to bottom, so order your logic carefully."
+7,Use print() to display results - your first debugging tool.
+8,Triple quotes let you write multi-line strings easily.
+9,input() always gives you a string - even if you type a number.
+10,Use type() to check what kind of object you're working with.
+11,Lists are ordered and mutable - you can edit them anytime.
+12,"Tuples are like lists, but locked - once made, they can't change."
+13,Sets automatically remove duplicates - great for unique collections.
+14,Dictionaries store data in key-value pairs - like labeled boxes.
+15,len() tells you how many items are inside a container.
+16,Lists can hold anything - even other lists or functions!
+17,Negative indexes count from the end - -1 is the last item.
+18,Slicing lets you grab parts of sequences - [start:end:step] is the syntax.
+19,"Strings are immutable - you can replace them, not modify them."
+20,Use sorted() to get a new sorted list - or sort() to change it in place.
+21,Functions are created with def - short for define.
+22,A function that doesn't return anything actually returns None.
+23,Default arguments are evaluated once - not every call.
+24,Use keyword arguments for clarity when calling functions.
+25,Lambda functions are tiny throwaway functions - perfect for one-liners.
+26,Functions are objects too - you can pass them around like data.
+27,Use *args for variable arguments and **kwargs for named arguments.
+28,Docstrings describe what your function does - use triple quotes right under def.
+29,"Recursion is a function calling itself - cool, but watch your base case!"
+30,return ends a function immediately and gives back a value.
+31,for loops can go through any iterable - from lists to strings.
+32,while loops run until their condition becomes False.
+33,"break stops a loop cold, while continue skips to the next round."
+34,Use pass as a placeholder - it literally does nothing but keeps your code valid.
+35,"if, elif, else decide what runs based on truthiness."
+36,Booleans in Python are capitalized - True and False.
+37,"None is falsy - just like 0, '', and empty collections."
+38,"Use 'in' to check membership - it works for lists, strings, and sets."
+39,Chained comparisons like 1 < x < 10 make your code clean and readable.
+40,Use ternary expressions like 'a if cond else b' to make compact decisions.
+41,Classes group data and behavior - they're blueprints for objects.
+42,__init__ sets up new objects - it's the constructor method.
+43,self refers to the instance - it's how methods access data.
+44,"Class variables belong to the class, not each instance."
+45,Inheritance lets a class reuse code from another class.
+46,super() calls methods from the parent class - super useful!
+47,Private attributes are just a naming convention - nothing truly private here.
+48,Polymorphism means different objects can share method names and still work.
+49,Magic methods like __str__ and __add__ let you customize built-in behavior.
+50,Everything in Python OOP is built on top of object - the ultimate base class.
+51,List comprehensions are compact loops that build lists on the fly.
+52,Dict comprehensions let you create mappings in one neat line.
+53,Generators use yield to return items lazily - one by one.
+54,Iterators remember where they left off - that's why you can only loop once.
+55,Decorators wrap functions to extend behavior - like adding extra powers.
+56,Closures remember variables even after their function has finished.
+57,with automatically cleans up resources - think of it as polite programming.
+58,try and except help your code recover from errors instead of crashing.
+59,finally always runs - no matter what happens in try/except.
+60,Modules are Python files you can reuse - import keeps code DRY.
+61,Everything is passed by object reference - Python doesn't copy by default.
+62,The GIL allows only one thread to run Python code at a time.
+63,Multiprocessing lets you sidestep the GIL using multiple processes.
+64,Asyncio helps run many tasks concurrently using async and await.
+65,Await can only be used inside async functions - never in normal ones.
+66,Descriptors control attribute access at a deep level - used in properties.
+67,Type hints improve readability and help static checkers - Python won't enforce them.
+68,"Metaclasses are classes of classes - yes, Python can go that deep."
+69,F-strings are the modern way to format text - clean and efficient.
+70,contextlib helps you build your own context managers with yield.
+71,Lists are ordered and mutable - you can edit them anytime.
+72,The GIL allows only one thread to run Python code at a time.
+73,Default arguments are evaluated once - not every call.
+74,"Metaclasses are classes of classes - yes, Python can go that deep."
+75,"In Python, everything is an object - even numbers and functions!"
+76,Polymorphism means different objects can share method names and still work.
+77,Magic methods like __str__ and __add__ let you customize built-in behavior.
+78,Default arguments are evaluated once - not every call.
+79,return ends a function immediately and gives back a value.
+80,input() always gives you a string - even if you type a number.
+81,Magic methods like __str__ and __add__ let you customize built-in behavior.
+82,Dict comprehensions let you create mappings in one neat line.
+83,Sets automatically remove duplicates - great for unique collections.
+84,"Python reads top to bottom, so order your logic carefully."
+85,Lists can hold anything - even other lists or functions!
+86,Docstrings describe what your function does - use triple quotes right under def.
+87,Magic methods like __str__ and __add__ let you customize built-in behavior.
+88,Sets automatically remove duplicates - great for unique collections.
+89,Generators use yield to return items lazily - one by one.
+90,Use print() to display results - your first debugging tool.
+91,return ends a function immediately and gives back a value.
+92,Strings can use single or double quotes - consistency matters more than choice.
+93,Lists are ordered and mutable - you can edit them anytime.
+94,Descriptors control attribute access at a deep level - used in properties.
+95,input() always gives you a string - even if you type a number.
+96,Lambda functions are tiny throwaway functions - perfect for one-liners.
+97,Lambda functions are tiny throwaway functions - perfect for one-liners.
+98,Strings can use single or double quotes - consistency matters more than choice.
+99,return ends a function immediately and gives back a value.
+100,return ends a function immediately and gives back a value.
+101,Dict comprehensions let you create mappings in one neat line.
+102,List comprehensions are compact loops that build lists on the fly.
+103,finally always runs - no matter what happens in try/except.
+104,super() calls methods from the parent class - super useful!
+105,Type hints improve readability and help static checkers - Python won't enforce them.
+106,Strings can use single or double quotes - consistency matters more than choice.
+107,Magic methods like __str__ and __add__ let you customize built-in behavior.
+108,len() tells you how many items are inside a container.
+109,contextlib helps you build your own context managers with yield.
+110,Functions are objects too - you can pass them around like data.
+111,Use *args for variable arguments and **kwargs for named arguments.
+112,Lists can hold anything - even other lists or functions!
+113,while loops run until their condition becomes False.
+114,Default arguments are evaluated once - not every call.
+115,Use '#' to add a comment - it's ignored by Python but loved by humans.
+116,len() tells you how many items are inside a container.
+117,Dict comprehensions let you create mappings in one neat line.
+118,Slicing lets you grab parts of sequences - [start:end:step] is the syntax.
+119,Lists are ordered and mutable - you can edit them anytime.
+120,Polymorphism means different objects can share method names and still work.
+121,"Tuples are like lists, but locked - once made, they can't change."
+122,Polymorphism means different objects can share method names and still work.
+123,finally always runs - no matter what happens in try/except.
+124,Strings can use single or double quotes - consistency matters more than choice.
+125,Booleans in Python are capitalized - True and False.
+126,with automatically cleans up resources - think of it as polite programming.
+127,Type hints improve readability and help static checkers - Python won't enforce them.
+128,"Tuples are like lists, but locked - once made, they can't change."
+129,super() calls methods from the parent class - super useful!
+130,Sets automatically remove duplicates - great for unique collections.
+131,Use '#' to add a comment - it's ignored by Python but loved by humans.
+132,Dict comprehensions let you create mappings in one neat line.
+133,finally always runs - no matter what happens in try/except.
+134,"Strings are immutable - you can replace them, not modify them."
+135,Use *args for variable arguments and **kwargs for named arguments.
+136,Triple quotes let you write multi-line strings easily.
+137,Lists can hold anything - even other lists or functions!
+138,Multiprocessing lets you sidestep the GIL using multiple processes.
+139,Generators use yield to return items lazily - one by one.
+140,finally always runs - no matter what happens in try/except.
+141,finally always runs - no matter what happens in try/except.
+142,Triple quotes let you write multi-line strings easily.
+143,input() always gives you a string - even if you type a number.
+144,__init__ sets up new objects - it's the constructor method.
+145,The GIL allows only one thread to run Python code at a time.
+146,Lists can hold anything - even other lists or functions!
+147,Polymorphism means different objects can share method names and still work.
+148,Lists are ordered and mutable - you can edit them anytime.
+149,Use sorted() to get a new sorted list - or sort() to change it in place.
+150,input() always gives you a string - even if you type a number.
+151,"Use 'in' to check membership - it works for lists, strings, and sets."
+152,Lists are ordered and mutable - you can edit them anytime.
+153,finally always runs - no matter what happens in try/except.
+154,Lists are ordered and mutable - you can edit them anytime.
+155,The GIL allows only one thread to run Python code at a time.
+156,"Use 'in' to check membership - it works for lists, strings, and sets."
+157,"In Python, everything is an object - even numbers and functions!"
+158,Use print() to display results - your first debugging tool.
+159,finally always runs - no matter what happens in try/except.
+160,"Use 'in' to check membership - it works for lists, strings, and sets."
+161,Generators use yield to return items lazily - one by one.
+162,Triple quotes let you write multi-line strings easily.
+163,Polymorphism means different objects can share method names and still work.
+164,Use ternary expressions like 'a if cond else b' to make compact decisions.
+165,super() calls methods from the parent class - super useful!
+166,return ends a function immediately and gives back a value.
+167,Sets automatically remove duplicates - great for unique collections.
+168,Dict comprehensions let you create mappings in one neat line.
+169,Asyncio helps run many tasks concurrently using async and await.
+170,return ends a function immediately and gives back a value.
+171,"Use 'in' to check membership - it works for lists, strings, and sets."
+172,Use print() to display results - your first debugging tool.
+173,Sets automatically remove duplicates - great for unique collections.
+174,Polymorphism means different objects can share method names and still work.
+175,Type hints improve readability and help static checkers - Python won't enforce them.
+176,input() always gives you a string - even if you type a number.
+177,Generators use yield to return items lazily - one by one.
+178,Generators use yield to return items lazily - one by one.
+179,Generators use yield to return items lazily - one by one.
+180,Decorators wrap functions to extend behavior - like adding extra powers.
+181,"None is falsy - just like 0, '', and empty collections."
+182,Triple quotes let you write multi-line strings easily.
+183,Default arguments are evaluated once - not every call.
+184,Polymorphism means different objects can share method names and still work.
+185,Chained comparisons like 1 < x < 10 make your code clean and readable.
+186,Type hints improve readability and help static checkers - Python won't enforce them.
+187,Use '#' to add a comment - it's ignored by Python but loved by humans.
+188,Variables don't need types declared - Python figures them out automatically.
+189,Lambda functions are tiny throwaway functions - perfect for one-liners.
+190,input() always gives you a string - even if you type a number.
+191,Lists can hold anything - even other lists or functions!
+192,List comprehensions are compact loops that build lists on the fly.
+193,"None is falsy - just like 0, '', and empty collections."
+194,Inheritance lets a class reuse code from another class.
+195,Type hints improve readability and help static checkers - Python won't enforce them.
+196,The GIL allows only one thread to run Python code at a time.
+197,Variables don't need types declared - Python figures them out automatically.
+198,Magic methods like __str__ and __add__ let you customize built-in behavior.
+199,Type hints improve readability and help static checkers - Python won't enforce them.
+200,Type hints improve readability and help static checkers - Python won't enforce them.
+201,"if, elif, else decide what runs based on truthiness."
+202,Use '#' to add a comment - it's ignored by Python but loved by humans.
+203,Generators use yield to return items lazily - one by one.
+204,Dict comprehensions let you create mappings in one neat line.
+205,input() always gives you a string - even if you type a number.
+206,Descriptors control attribute access at a deep level - used in properties.
+207,Chained comparisons like 1 < x < 10 make your code clean and readable.
+208,List comprehensions are compact loops that build lists on the fly.
+209,finally always runs - no matter what happens in try/except.
+210,The GIL allows only one thread to run Python code at a time.
+211,"None is falsy - just like 0, '', and empty collections."
+212,len() tells you how many items are inside a container.
+213,Generators use yield to return items lazily - one by one.
+214,Polymorphism means different objects can share method names and still work.
+215,Use sorted() to get a new sorted list - or sort() to change it in place.
+216,Use '#' to add a comment - it's ignored by Python but loved by humans.
+217,Use ternary expressions like 'a if cond else b' to make compact decisions.
+218,The GIL allows only one thread to run Python code at a time.
+219,Use print() to display results - your first debugging tool.
+220,len() tells you how many items are inside a container.
+221,Magic methods like __str__ and __add__ let you customize built-in behavior.
+222,input() always gives you a string - even if you type a number.
+223,"None is falsy - just like 0, '', and empty collections."
+224,Descriptors control attribute access at a deep level - used in properties.
+225,Descriptors control attribute access at a deep level - used in properties.
+226,Sets automatically remove duplicates - great for unique collections.
+227,Dict comprehensions let you create mappings in one neat line.
+228,"Use 'in' to check membership - it works for lists, strings, and sets."
+229,input() always gives you a string - even if you type a number.
+230,finally always runs - no matter what happens in try/except.
+231,Variables don't need types declared - Python figures them out automatically.
+232,Dict comprehensions let you create mappings in one neat line.
+233,Inheritance lets a class reuse code from another class.
+234,return ends a function immediately and gives back a value.
+235,Type hints improve readability and help static checkers - Python won't enforce them.
+236,Default arguments are evaluated once - not every call.
+237,Dict comprehensions let you create mappings in one neat line.
+238,finally always runs - no matter what happens in try/except.
+239,Strings can use single or double quotes - consistency matters more than choice.
+240,input() always gives you a string - even if you type a number.
+241,finally always runs - no matter what happens in try/except.
+242,Polymorphism means different objects can share method names and still work.
+243,"Python reads top to bottom, so order your logic carefully."
+244,Type hints improve readability and help static checkers - Python won't enforce them.
+245,Slicing lets you grab parts of sequences - [start:end:step] is the syntax.
+246,Strings can use single or double quotes - consistency matters more than choice.
+247,Chained comparisons like 1 < x < 10 make your code clean and readable.
+248,return ends a function immediately and gives back a value.
+249,Variables don't need types declared - Python figures them out automatically.
+250,Sets automatically remove duplicates - great for unique collections.
+251,Dict comprehensions let you create mappings in one neat line.
+252,Use print() to display results - your first debugging tool.
+253,Functions are objects too - you can pass them around like data.
+254,finally always runs - no matter what happens in try/except.
+255,finally always runs - no matter what happens in try/except.
+256,Magic methods like __str__ and __add__ let you customize built-in behavior.
+257,return ends a function immediately and gives back a value.
+258,return ends a function immediately and gives back a value.
+259,Everything is passed by object reference - Python doesn't copy by default.
+260,"Tuples are like lists, but locked - once made, they can't change."
+261,input() always gives you a string - even if you type a number.
+262,Dict comprehensions let you create mappings in one neat line.
+263,finally always runs - no matter what happens in try/except.
+264,Use print() to display results - your first debugging tool.
+265,Lists are ordered and mutable - you can edit them anytime.
+266,Polymorphism means different objects can share method names and still work.
+267,finally always runs - no matter what happens in try/except.
+268,Descriptors control attribute access at a deep level - used in properties.
+269,Use print() to display results - your first debugging tool.
+270,"Use 'in' to check membership - it works for lists, strings, and sets."
+271,Generators use yield to return items lazily - one by one.
+272,Descriptors control attribute access at a deep level - used in properties.
+273,Use *args for variable arguments and **kwargs for named arguments.
+274,Decorators wrap functions to extend behavior - like adding extra powers.
+275,for loops can go through any iterable - from lists to strings.
+276,Strings can use single or double quotes - consistency matters more than choice.
+277,Multiprocessing lets you sidestep the GIL using multiple processes.
+278,Sets automatically remove duplicates - great for unique collections.
+279,finally always runs - no matter what happens in try/except.
+280,len() tells you how many items are inside a container.
+281,Use *args for variable arguments and **kwargs for named arguments.
+282,Multiprocessing lets you sidestep the GIL using multiple processes.
+283,return ends a function immediately and gives back a value.
+284,Docstrings describe what your function does - use triple quotes right under def.
+285,input() always gives you a string - even if you type a number.
+286,input() always gives you a string - even if you type a number.
+287,Lists can hold anything - even other lists or functions!
+288,Lists can hold anything - even other lists or functions!
+289,Polymorphism means different objects can share method names and still work.
+290,List comprehensions are compact loops that build lists on the fly.
+291,Triple quotes let you write multi-line strings easily.
+292,Type hints improve readability and help static checkers - Python won't enforce them.
+293,Docstrings describe what your function does - use triple quotes right under def.
+294,Polymorphism means different objects can share method names and still work.
+295,"Tuples are like lists, but locked - once made, they can't change."
+296,Use *args for variable arguments and **kwargs for named arguments.
+297,Strings can use single or double quotes - consistency matters more than choice.
+298,Docstrings describe what your function does - use triple quotes right under def.
+299,Magic methods like __str__ and __add__ let you customize built-in behavior.
+300,List comprehensions are compact loops that build lists on the fly.
+301,"if, elif, else decide what runs based on truthiness."
+302,input() always gives you a string - even if you type a number.
+303,Decorators wrap functions to extend behavior - like adding extra powers.
+304,Polymorphism means different objects can share method names and still work.
+305,Functions are objects too - you can pass them around like data.
+306,super() calls methods from the parent class - super useful!
+307,Lists are ordered and mutable - you can edit them anytime.
+308,super() calls methods from the parent class - super useful!
+309,Dict comprehensions let you create mappings in one neat line.
+310,Use print() to display results - your first debugging tool.
+311,Use print() to display results - your first debugging tool.
+312,Use print() to display results - your first debugging tool.
+313,finally always runs - no matter what happens in try/except.
+314,input() always gives you a string - even if you type a number.
+315,Private attributes are just a naming convention - nothing truly private here.
+316,Sets automatically remove duplicates - great for unique collections.
+317,finally always runs - no matter what happens in try/except.
+318,Sets automatically remove duplicates - great for unique collections.
+319,Variables don't need types declared - Python figures them out automatically.
+320,Polymorphism means different objects can share method names and still work.
+321,len() tells you how many items are inside a container.
+322,Type hints improve readability and help static checkers - Python won't enforce them.
+323,finally always runs - no matter what happens in try/except.
+324,Default arguments are evaluated once - not every call.
+325,Use print() to display results - your first debugging tool.
+326,try and except help your code recover from errors instead of crashing.
+327,Generators use yield to return items lazily - one by one.
+328,Dict comprehensions let you create mappings in one neat line.
+329,finally always runs - no matter what happens in try/except.
+330,Asyncio helps run many tasks concurrently using async and await.
+331,Dict comprehensions let you create mappings in one neat line.
+332,"In Python, everything is an object - even numbers and functions!"
+333,Polymorphism means different objects can share method names and still work.
+334,Polymorphism means different objects can share method names and still work.
+335,finally always runs - no matter what happens in try/except.
+336,Polymorphism means different objects can share method names and still work.
+337,Use '#' to add a comment - it's ignored by Python but loved by humans.
+338,Use keyword arguments for clarity when calling functions.
+339,"Python reads top to bottom, so order your logic carefully."
+340,Strings can use single or double quotes - consistency matters more than choice.
+341,"Use 'in' to check membership - it works for lists, strings, and sets."
+342,"Use 'in' to check membership - it works for lists, strings, and sets."
+343,Use '#' to add a comment - it's ignored by Python but loved by humans.
+344,"None is falsy - just like 0, '', and empty collections."
+345,Use sorted() to get a new sorted list - or sort() to change it in place.
+346,Sets automatically remove duplicates - great for unique collections.
+347,Lists can hold anything - even other lists or functions!
+348,len() tells you how many items are inside a container.
+349,return ends a function immediately and gives back a value.
+350,super() calls methods from the parent class - super useful!
+351,Triple quotes let you write multi-line strings easily.
+352,"In Python, everything is an object - even numbers and functions!"
+353,F-strings are the modern way to format text - clean and efficient.
+354,contextlib helps you build your own context managers with yield.
+355,return ends a function immediately and gives back a value.
+356,input() always gives you a string - even if you type a number.
+357,"Tuples are like lists, but locked - once made, they can't change."
+358,Triple quotes let you write multi-line strings easily.
+359,len() tells you how many items are inside a container.
+360,Use keyword arguments for clarity when calling functions.
+361,Magic methods like __str__ and __add__ let you customize built-in behavior.
+362,Type hints improve readability and help static checkers - Python won't enforce them.
+363,finally always runs - no matter what happens in try/except.
+364,input() always gives you a string - even if you type a number.
+365,super() calls methods from the parent class - super useful!
+366,Polymorphism means different objects can share method names and still work.
+367,input() always gives you a string - even if you type a number.
+368,Closures remember variables even after their function has finished.
+369,Generators use yield to return items lazily - one by one.
+370,__init__ sets up new objects - it's the constructor method.
+371,Polymorphism means different objects can share method names and still work.
+372,Everything is passed by object reference - Python doesn't copy by default.
+373,Triple quotes let you write multi-line strings easily.
+374,input() always gives you a string - even if you type a number.
+375,Generators use yield to return items lazily - one by one.
+376,finally always runs - no matter what happens in try/except.
+377,return ends a function immediately and gives back a value.
+378,Use sorted() to get a new sorted list - or sort() to change it in place.
+379,Descriptors control attribute access at a deep level - used in properties.
+380,Docstrings describe what your function does - use triple quotes right under def.
+381,F-strings are the modern way to format text - clean and efficient.
+382,"None is falsy - just like 0, '', and empty collections."
+383,Polymorphism means different objects can share method names and still work.
+384,Type hints improve readability and help static checkers - Python won't enforce them.
+385,Magic methods like __str__ and __add__ let you customize built-in behavior.
+386,Lists can hold anything - even other lists or functions!
+387,Magic methods like __str__ and __add__ let you customize built-in behavior.
+388,Use keyword arguments for clarity when calling functions.
+389,Use print() to display results - your first debugging tool.
+390,Multiprocessing lets you sidestep the GIL using multiple processes.
+391,super() calls methods from the parent class - super useful!
+392,Dict comprehensions let you create mappings in one neat line.
+393,input() always gives you a string - even if you type a number.
+394,"if, elif, else decide what runs based on truthiness."
+395,Strings can use single or double quotes - consistency matters more than choice.
+396,Use *args for variable arguments and **kwargs for named arguments.
+397,Lists are ordered and mutable - you can edit them anytime.
+398,contextlib helps you build your own context managers with yield.
+399,"Tuples are like lists, but locked - once made, they can't change."
+400,Type hints improve readability and help static checkers - Python won't enforce them.
+401,"None is falsy - just like 0, '', and empty collections."
+402,Polymorphism means different objects can share method names and still work.
+403,Multiprocessing lets you sidestep the GIL using multiple processes.
+404,Lists are ordered and mutable - you can edit them anytime.
+405,Default arguments are evaluated once - not every call.
+406,Triple quotes let you write multi-line strings easily.
+407,Await can only be used inside async functions - never in normal ones.
+408,"Use 'in' to check membership - it works for lists, strings, and sets."
+409,The GIL allows only one thread to run Python code at a time.
+410,contextlib helps you build your own context managers with yield.
+411,Use '#' to add a comment - it's ignored by Python but loved by humans.
+412,The GIL allows only one thread to run Python code at a time.
+413,Functions are objects too - you can pass them around like data.
+414,return ends a function immediately and gives back a value.
+415,Variables don't need types declared - Python figures them out automatically.
+416,Multiprocessing lets you sidestep the GIL using multiple processes.
+417,finally always runs - no matter what happens in try/except.
+418,List comprehensions are compact loops that build lists on the fly.
+419,Magic methods like __str__ and __add__ let you customize built-in behavior.
+420,Everything in Python OOP is built on top of object - the ultimate base class.
+421,Use *args for variable arguments and **kwargs for named arguments.
+422,Use *args for variable arguments and **kwargs for named arguments.
+423,Type hints improve readability and help static checkers - Python won't enforce them.
+424,Lists can hold anything - even other lists or functions!
+425,Use keyword arguments for clarity when calling functions.
+426,input() always gives you a string - even if you type a number.
+427,return ends a function immediately and gives back a value.
+428,Use sorted() to get a new sorted list - or sort() to change it in place.
+429,try and except help your code recover from errors instead of crashing.
+430,"break stops a loop cold, while continue skips to the next round."
+431,contextlib helps you build your own context managers with yield.
+432,super() calls methods from the parent class - super useful!
+433,Type hints improve readability and help static checkers - Python won't enforce them.
+434,try and except help your code recover from errors instead of crashing.
+435,Variables don't need types declared - Python figures them out automatically.
+436,Await can only be used inside async functions - never in normal ones.
+437,Generators use yield to return items lazily - one by one.
+438,Use *args for variable arguments and **kwargs for named arguments.
+439,Closures remember variables even after their function has finished.
+440,Generators use yield to return items lazily - one by one.
+441,finally always runs - no matter what happens in try/except.
+442,Type hints improve readability and help static checkers - Python won't enforce them.
+443,Docstrings describe what your function does - use triple quotes right under def.
+444,Dict comprehensions let you create mappings in one neat line.
+445,input() always gives you a string - even if you type a number.
+446,return ends a function immediately and gives back a value.
+447,finally always runs - no matter what happens in try/except.
+448,while loops run until their condition becomes False.
+449,"Use 'in' to check membership - it works for lists, strings, and sets."
+450,Strings can use single or double quotes - consistency matters more than choice.
+451,Use *args for variable arguments and **kwargs for named arguments.
+452,"In Python, everything is an object - even numbers and functions!"
+453,Generators use yield to return items lazily - one by one.
+454,Multiprocessing lets you sidestep the GIL using multiple processes.
+455,Dict comprehensions let you create mappings in one neat line.
+456,Magic methods like __str__ and __add__ let you customize built-in behavior.
+457,Triple quotes let you write multi-line strings easily.
+458,input() always gives you a string - even if you type a number.
+459,Lambda functions are tiny throwaway functions - perfect for one-liners.
+460,"None is falsy - just like 0, '', and empty collections."
+461,Slicing lets you grab parts of sequences - [start:end:step] is the syntax.
+462,Use print() to display results - your first debugging tool.
+463,return ends a function immediately and gives back a value.
+464,"Use 'in' to check membership - it works for lists, strings, and sets."
+465,F-strings are the modern way to format text - clean and efficient.
+466,Everything is passed by object reference - Python doesn't copy by default.
+467,try and except help your code recover from errors instead of crashing.
+468,return ends a function immediately and gives back a value.
+469,Magic methods like __str__ and __add__ let you customize built-in behavior.
+470,Lambda functions are tiny throwaway functions - perfect for one-liners.
+471,Use *args for variable arguments and **kwargs for named arguments.
+472,Sets automatically remove duplicates - great for unique collections.
+473,The GIL allows only one thread to run Python code at a time.
+474,return ends a function immediately and gives back a value.
+475,finally always runs - no matter what happens in try/except.
+476,Lists are ordered and mutable - you can edit them anytime.
+477,List comprehensions are compact loops that build lists on the fly.
+478,Use keyword arguments for clarity when calling functions.
+479,Strings can use single or double quotes - consistency matters more than choice.
+480,Type hints improve readability and help static checkers - Python won't enforce them.
+481,Type hints improve readability and help static checkers - Python won't enforce them.
+482,"Tuples are like lists, but locked - once made, they can't change."
+483,len() tells you how many items are inside a container.
+484,Strings can use single or double quotes - consistency matters more than choice.
+485,finally always runs - no matter what happens in try/except.
+486,Use print() to display results - your first debugging tool.
+487,Modules are Python files you can reuse - import keeps code DRY.
+488,Generators use yield to return items lazily - one by one.
+489,Type hints improve readability and help static checkers - Python won't enforce them.
+490,Type hints improve readability and help static checkers - Python won't enforce them.
+491,super() calls methods from the parent class - super useful!
+492,Variables don't need types declared - Python figures them out automatically.
+493,Descriptors control attribute access at a deep level - used in properties.
+494,Everything in Python OOP is built on top of object - the ultimate base class.
+495,The GIL allows only one thread to run Python code at a time.
+496,Decorators wrap functions to extend behavior - like adding extra powers.
+497,Generators use yield to return items lazily - one by one.
+498,return ends a function immediately and gives back a value.
+499,Await can only be used inside async functions - never in normal ones.
+500,try and except help your code recover from errors instead of crashing.
