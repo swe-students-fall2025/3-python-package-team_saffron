@@ -5,7 +5,7 @@
 
 [![](https://github.com/swe-students-fall2025/3-python-package-team_saffron/actions/workflows/deliver.yaml/badge.svg)](https://github.com/swe-students-fall2025/3-python-package-team_saffron/actions/workflows/deliver.yaml)
 
-Link to PyPI: []()
+Link to PyPI: [Emojiguessr](https://pypi.org/project/emojiguessr/)
 
 EmojiGuessr is a Python package that turns emoji strings into quick guessing games. Pick a theme, get an emoji clue and guess the name!
 
@@ -28,6 +28,18 @@ member4
 member5
 
 ## Installation
+
+1. Create a `pipenv`-managed virtual environment and install the latest version: `pipenv install -i https://test.pypi.org/simple/emojiguessr`. (Note that if you've previously created a `pipenv` virtual environment in the same directory, you may have to delete the old one first. Find out where it is located with the `pipenv --venv` command.)
+2. Activate the virtual environment: `pipenv shell`.
+3. Create a Python program file that imports the package and uses it, e.g. `from emojiguessr import quiz` and then ` print(quiz.make_quiz_item())`.
+4. Run the program: `python3 my_program_filename.py`.
+5. Exit the virtual environment: `exit`.
+
+Try running the package directly:
+
+1. Create and activate up the `pipenv` virtual environment as before.
+2. Run the package directly from the command line: `python3 -m emojiguessr`. This should run the code in the `__main__.py` file.
+3. Exit the virtual environment.
 
 ### From Test PyPI
 ```sh
@@ -177,4 +189,4 @@ pipenv run pytest -v
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.

@@ -20,4 +20,4 @@ jobs:
         run: |
           pipenv install pytest
           pipenv --venv
-          pipenv run python -m pytest
+          pipenv run python -m pytest --cov=.
