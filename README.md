@@ -1,7 +1,7 @@
 # EmojiGuessr
 
 <!-- The badge should be replaced by the actual CI badge -->
-[![](https://github.com/swe-students-fall2025/3-python-package-team_saffron/actions/workflows/event-logger.yml/badge.svg)](https://github.com/swe-students-fall2025/3-python-package-team_saffron/actions/workflows/event-logger.yml)
+[![](https://github.com/swe-students-fall2025/3-python-package-team_saffron/actions/workflows/build.yaml/badge.svg)](https://github.com/swe-students-fall2025/3-python-package-team_saffron/actions/workflows/build.yaml)
 
 Link to PyPI: []()
 
