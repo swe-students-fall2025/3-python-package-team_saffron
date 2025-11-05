@@ -33,7 +33,7 @@ class Tests:
         actual = True  # the value we see in reality
         assert actual == expected, "Expected True to be equal to True!"
 
-    def test_random_emojis(self):
+    def test_random_emojis_default(self):
         """
         Verify random_emojis() function and make sure it returns the correct number of emojis.
         """
@@ -43,11 +43,48 @@ class Tests:
             len(actual) == 3
         ), f"Expected random_emojis() to return 3 emojis by default. Instead, it returned {len(actual)} emojis."
 
-        # test with counts 1-10
-        for i in range(10):
+        # test with counts for food
+        default_len_actual = len(data._EMOJI_BANK["food"])
+        for i in range(default_len_actual):
             actual = data.random_emojis(i)
             assert (
                 len(actual) == i
             ), f"Expected random_emojis({i}) to return {i} emojis. Instead, it returned {len(actual)} emojis."
     
+    def test_random_emojis_all(self):
+        """
+        Verify random_emojis() function when theme is invalid and it returns all emojis
+        """
+        # test with invalid theme
+        all_emoji = [e for v in data._EMOJI_BANK.values() for (e, _) in v]
+        all_len_actual = len(all_emoji)
+        for i in range(all_len_actual):
+            actual = data.random_emojis(i, theme="invalid_theme")
+            assert (
+                len(actual) == i
+            ), f"Expected random_emojis({i}, theme='invalid_theme') to return {i} emojis. Instead, it returned {len(actual)} emojis."
     
+    def test_random_emojis_animals(self):
+        """
+        Verify random_emojis() function for animals theme
+        """
+        # test with counts for animals
+        animals_len_actual = len(data._EMOJI_BANK["animals"])
+        for i in range(animals_len_actual):
+            actual = data.random_emojis(i, theme="animals")
+            assert (
+                len(actual) == i
+            ), f"Expected random_emojis({i}, theme='animals') to return {i} emojis. Instead, it returned {len(actual)} emojis."
+
+    def test_random_emojis_themes(self):
+        """
+        Verify random_emojis() function works for all themes
+        """
+
+        for theme in data._EMOJI_BANK.keys():
+            theme_len_actual = len(data._EMOJI_BANK[theme])
+            for i in range(theme_len_actual):
+                actual = data.random_emojis(i, theme=theme)
+                assert (
+                    len(actual) == i
+                ), f"Expected random_emojis({i}, theme='{theme}') to return {i} emojis. Instead, it returned {len(actual)} emojis."
